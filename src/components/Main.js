@@ -53,18 +53,22 @@ const Main = () => {
   const [filteredData, setFilteredData] = useState(Merchants);
   const filterClose = () => setFilter(false);
   const filterShow = () => setFilter(true);
+  const [selectedLocation, setSelectedLocation] = useState('');
 
   const handleFilteredByLocation = (location) => {
     const filtered = Merchants.filter(list =>
       list.loc.includes(location) ||
-      list.loclist.some(loc => loc.includes(location))
+      list.loclist.some(loc => loc.includes(location)) ||
+      list.filteredCity.toLowerCase().includes(location)
     );
+    console.log(location);
+    const getLocation = location;
+    setSelectedLocation(getLocation);
     
     if (filtered.length > 0) {
       setFilteredData(filtered);
       filterClose();
       document.getElementById('emptyStateFilterLocation').classList.add('d-none');
-      alert(`Tes ${location}`);
     } else {
       setFilteredData(filtered);
       filterClose();
@@ -133,6 +137,7 @@ const Main = () => {
         </div>
         <div className='merchant-result'>
           <div className='result-list'>
+            <div>Menampilkan semua kategori merchant di {selectedLocation}</div>
             <Row className='px-2'>
               {filteredData.map(list => (
                 <Col key={list.merchantId} xs={6} sm={6} md={3} lg={2} className='px-1 py-2'>
@@ -222,7 +227,7 @@ const Main = () => {
                 <img src='https://static-content.alfagift.id/static/alfagift-app/no_search_result.png' alt='' className='img-fluid mb-3' />
               </Col>
               <Col xs={10}>
-                <p className='text-center'>Tidak ada merchant dilokasi yang kamu pilih</p>
+                <p className='text-center'>Tidak ada merchant di "{selectedLocation}"</p>
               </Col>
             </Row>
           </div>

@@ -59,7 +59,7 @@ const Main = () => {
     const filtered = Merchants.filter(list =>
       list.loc.includes(location) ||
       list.loclist.some(loc => loc.includes(location)) ||
-      list.filteredCity.toLowerCase().includes(location)
+      list.filteredCity.toLowerCase().includes(location.toLowerCase())
     );
     console.log(location);
     const getLocation = location;

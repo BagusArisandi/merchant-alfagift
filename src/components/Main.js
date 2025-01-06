@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Col, Container, Row, Modal, Button } from 'react-bootstrap';
 import Merchants from '../merchantData';
 import Citys from '../cityData';
+import Carousel from '../carouselData';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Main = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -59,7 +63,7 @@ const Main = () => {
     const filtered = Merchants.filter(list =>
       list.loc.includes(location) ||
       list.loclist.some(loc => loc.includes(location)) ||
-      list.filteredCity.toLowerCase().includes(location)
+      list.filteredCity.toLowerCase().includes(location.toLowerCase())
     );
     console.log(location);
     const getLocation = location;
@@ -96,6 +100,15 @@ const Main = () => {
     // console.log('Filtered Data:', filteredData);
   }, [filteredData]);
 
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
   return (
     <div>
       <Container className='content'>
@@ -137,6 +150,21 @@ const Main = () => {
         </div>
         <div className='merchant-result'>
           <div className='result-list'>
+          <div className="slider-container">
+          <Slider {...settings}>
+            {Carousel.map((list) => (
+              <Col key={list.id} className='py-2'>
+              <div>
+                <img
+                  src={'https://static-content.alfagift.id/promo/assets/image/2025/januari/' + list.image}
+                  alt=''
+                  className='img-fluid'
+                />
+              </div>
+              </Col>
+            ))}
+          </Slider>
+          </div>
             <div>Menampilkan semua kategori merchant di {selectedLocation}</div>
             <Row className='px-2'>
               {filteredData.map(list => (

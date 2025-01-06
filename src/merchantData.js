@@ -1,5 +1,5 @@
 // const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
-// merchantId: 632
+// merchantId: 635
 const Merchants = [
   {
     merchantId: 599,
@@ -228,7 +228,7 @@ const Merchants = [
       "Jl. Kapten Piere Tendean No.171, Nusukan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57135",
       "Jl. Diponegoro No.77D, Sidorejo Lor, Kec. Sidorejo, Kota Salatiga, Jawa Tengah 50714",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, SERANG, JAWA BARAT, LAMPUNG, DEPOK, JAKARTA, BALIKPAPAN, SAMARINDA, BANJARMASIN, KALIMANTAN, BANDUNG, BEKASI, BOGOR, BATAM, KEPULAUAN RIAU, MEDAN , PALEMBANG, PADANG, SUKABUMI, JAMBI, SURABAYA, MALANG, SEMARANG, YOGYA, DENPASAR, MAKASSAR, SURABAYA, SOLO, SURAKARTA, SALATIGA, MADIUN",
     reserve: [
       "Instagram : @dominos_id",
     ],
@@ -855,7 +855,7 @@ const Merchants = [
       "Tanjung Raya Pontianak - Jl. Tanjung Raya II (Dkt Masjid Ikhwanul Muslimin)",
       "Hulaan Gresik - Jl Raya Prapatan Hulaan Rt 18 Rw 07 Kel. Hulaan Kec. Menganti Kab. Gresik Propinsi Jawa Timur",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA PUSAT, JAKARTA SELATAN, JAKARTA UTARA, JAKARTA TIMUR, TANGERANG, TANGERANG SELATAN, SURABAYA, BEKASI, MALANG, PADANG, MAKASSAR, BANDUNG,MAGELANG, MEDAN , BOGOR, KABUPATEN BENGKALIS, BATU, TOMOHON, BANDAR LAMPUNG, BITUNG, METRO, PEKALONGAN, PRABUMULIH, BAU BAU, MATARAM, LHOKSEUMAWE KOTAMOBAGU, PADANGSIDIMPUAN, BALIKPAPAN, PALANGKARAYA, MANADO, BANJARMASIN, PASURUAN, SAMARINDA, JAYAPURA, PARE PARE, DEPOK, DENPASAR, BATAM, BALIKPAPAN, CIREBON, SAMARINDA, SURAKARTA, MANADO, SUKABUMI, TEGAL, BANDA ACEH, CIMAHI, SERANG, BANDAR LAMPUNG, JAYAPURA, BUKIT, TINGGI, BALIKPAPAN, TANJUNG PINANG, KEDIRI, DEPOK, DEPASAR, PEKANBARU, YOGYAKARTA, PONTIANAK, DEPOK, SURAKARTA, JAMBI, PALU, MALANG, KENDAR, SEMARANG, BANDAR LAMPUNG, SALATIGA, MADIUN, MOJOKERTO, BANJAR BARU, BENGKULU, AMBON, PALANGKA RAYA, MATARAM, KUPANG, GORONTALO, PALEMBANG, CIREBON, BATAM, JAMBI, SEMARANG, PADANG, PEMATANG SIANTAR, BANJARMASIN, CILEGON, DUMAI, SORONG, TARAKAN, DEPOK, SINGKAWANG, PALOPO, PANGKAL PINANG, LUBUK LINGGAU, BONTANG, KENDARI, TERNATEM JAYAPURA, AMBON, GRESIK, BINJAI, SERANG, PROBOLINGGO, TASIKMALAYA",
     reserve: [
       "Instagram : @pizzahut.indonesia",
     ],
@@ -959,7 +959,7 @@ const Merchants = [
       "<strong>Kopi Soe x Bonsoe, Gading Nias</strong> - Apartment Gading Nias Residences , Tower Alamanda (Samping Lobby C) Jl.Pegangsaan Dua ,RT.13/RW.3, Pegangsaan Dua ,Kelapa Gading, Jakarta Utara 14250",
       "<strong>Kopi Soe X Bonsoe, Zurich</strong> - Graha Zurich, Jl. Letjen M.T. Haryono No.Kav.42, RT.1/RW.5, Cikoko, Kec. Pancoran, Jakarta, Daerah Khusus Ibukota Jakarta 12780",
     ],
-    filteredCity: "",
+    filteredCity: "MAKASAR, JAKARTA SELATAN, JAKARTA BARAT, JAKARTA PUSAT, JAKARTA UTARA, BLITAR, BINJAI, CILEGON, JAKARTA SELATAN, TANGERANG SELATAN, PADANG, TANGERANG, JAMBI, PALU, KARAWANG, KENDARI, KUPANG, MATARAM, MADIUN, BEKASI, BANDUNG, KEDIRI, DENPASAR, PEKANBARU, SAMARINDA, TERNATE, JAMBI, BOGOR, SORONG, BENGKULU, SURAKARTA, SURABAYA, PANGKAL PINANG, SORONG, DEPOK, MEDAN, SAMARINDA, YOGYAKARTA, PALANGKA RAYA, KARAWANG, PANGKAL PINANG, BENGKULU, BOGOR",
     reserve: [
       "Instagram : @kopisoe",
     ],
@@ -1083,7 +1083,7 @@ const Merchants = [
       "Kabobs - Premium Kebab, MOI",
       "Kabobs - Premium Kebab, Plaza Atrium",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN, JAKARTA TIMUR, JAKARTA PUSAT, JAKARTA BARAT, JAKARTA SELATAN, BANDUNG, TASIKMALAYA, CIREBON, TEGAL, BOGOR, SURABAYA, DEPOK, SEMARANG, YOGYAKARTA, SURAKARTA, PEKALONGAN, MALANG, DEPOK, CIREBON, SEMARANG, TEGAL",
     reserve: [
       "Instagram : @kabobs.id",
     ],
@@ -1173,7 +1173,7 @@ const Merchants = [
       "Smile Kimbab - Beachwalk Shopping Center Mall , 2nd Floor",
       "Smile Kimbab - Living World Denpasar, LG Floor",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA BARAT, TANGERANG, DENPASAR",
     reserve: [
       "Email : paiksnoodle.indonesia@gmail.com",
       "Telp : 085282052504",
@@ -1208,7 +1208,7 @@ const Merchants = [
       "<strong>Jl. Trans Heksa</strong> Km 2+500, Kec. Telukjambe Barat – Karawang 1st Floor Unit 1-1030, Wanasari, Telukjambe Barat, Karawang, West Java 41361",
       "<strong>Bintaro Jaya Xchange Mall 2</strong>, Lantai Basement 1. Jl. Boulevard Bintaro Jaya, Bintaro, Tangerang Selatan",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA UTARA, JAKARTA SELATAN, JAKARTA PUSAT, DEPOK TANGERANG, KARAWANG, TANGERANG SELATAN",
     reserve: [
       "<strong>Instagram</strong> : @niubao.id",
     ],
@@ -1232,7 +1232,7 @@ const Merchants = [
       "Jl Cipete Raya no.18, Fatmawati - Jakarta Selatan",
       "Bintaro Xchange Mall 1, Lt B1, Pondok Aren, Pondok Jaya - Tangerang Selatan",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "<strong>Telephone</strong> : 087878651224",
       "<strong>Email</strong> : soessurgawi@gmail.com",
@@ -1260,7 +1260,7 @@ const Merchants = [
       "Supermal Karawaci, Lantai 1 Unit No. FF#9, Jl. Boulevard Diponegoro, No. 105 Bencongan, Kec. Klp Dua, Kab. Tangerang, Banten, 15811",
       "Mall Of Serang, Lantai GF, Unit. GF-12, Jl. Akses Tol Serang Tim. Link. Kemang. No. 15, Panancangan, Kec. Cipocok Jaya, Kota Serang, Banten, 42124",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, TANGERANG SELATAN, SERANG",
     reserve: [
       "Instagram : @hungrydomory",
     ],
@@ -1282,7 +1282,7 @@ const Merchants = [
     ],
     loc: "Ramen-I UBM Tower lobby area",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Instagram</strong> : @kedai_rameni",
       "<strong>Telephone</strong> : 0811-1001- 3167",
@@ -1322,7 +1322,7 @@ const Merchants = [
       "Yamie Panda Chapter Majapahit – Jl. Brigjen Sudiarto No. 267, Gemah, Pedurungan, Semarang",
       "Yamie Panda Chapter ITC - Studio Food Court Lt. 1 Pakuwon Trade Center Surabaya Jl. Raya Lontar No. 2, Babatan Wiyung Surabaya",
     ],
-    filteredCity: "",
+    filteredCity: "SIDOARJO",
     reserve: [
       "Instagram : @yamiepanda",
     ],
@@ -1346,7 +1346,7 @@ const Merchants = [
     ],
     loc: "Seluruh cabang Bakmi GM di Jabodetabek, Bandung, Surabaya, dan Bali (kecuali Foodtruck, Booth, Bazzar, Stasiun, dan Bandara)",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA TIMUR, JAKARTA SELATAN, JAKARTA BARAT, JAKARTA PUSAT, BEKASI, DEPOK, TANGERANG, BOGOR, BANDUNG, SURABAYA, DENPASAR",
     reserve: [
       "<strong>Whatsapp</strong>: <a href='https://api.whatsapp.com/send?phone=628111500677' target='_blank'>0811 1500 677</a>",
       "<strong>Website</strong>: <a href='https://bakmigm.com' target='_blank'>bakmigm.com</a>",
@@ -1399,7 +1399,7 @@ const Merchants = [
       "Bekasi - Bekasi Cyber Park Mall, Jalan K.H. Noer Ali no. 177, Bekasi, Jawa Barat 17124",
       "Karawaci - Supermal Karawaci, Jl. Boulevard Diponegoro, Bencongan, Kec. Klp. Dua, Kabupaten Tangerang, Banten 158120",
     ],
-    filteredCity: "",
+    filteredCity: "PONTIANAK, SINGKAWANG, JAKARTA PUSAT, JAKARTA BARAT, JAKARTA UTARA, TANGERANG, YOGYAKARTA, SURAKARTA, BANDUNG, BEKASI",
     reserve: [
       "Instagram : @amingcoffee",
     ],
@@ -1429,7 +1429,7 @@ const Merchants = [
       "Paik&quot;s Noodle -Beachwalk Shopping Center Mall , 2nd Floor",
       "Paik&quot;s Noodle -Living World Denpasar, LG Floor",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA BARAT, TANGERANG, DENPASAR",
     reserve: [
       "Email : paiksnoodle.indonesia@gmail.com",
       "Telp : 085282052504",
@@ -1455,7 +1455,7 @@ const Merchants = [
       "<strong>Apartement Brooklyn A01/A03</strong>, Jl. Alam Sutera Boulevard, Pakulonan, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15325",
       "<strong>The Accent Apartment</strong>, Jl. Wahid Hasyim, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15220",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "<strong>Instagram</strong> : @canabeans.id",
     ],
@@ -1477,7 +1477,7 @@ const Merchants = [
     ],
     loc: "Jl. Golf Estate Bogor Raya, Sukaraja, Kec. Sukaraja, Kabupaten Bogor, Jawa Barat 16710",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "Telphone :  +62 877 7684 0125",
     ],
@@ -1506,7 +1506,7 @@ const Merchants = [
       "Aeon Mall Sentul, Jl. MH. Thamrin, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810, Lantai 2",
       "Mall Of Indonesia, Jl. Boulevard Bar. Raya No.12, RT.18/RW.19, Klp. Gading Bar., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240, Lantai 2",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, TANGERANG SELATAN, JAKARTA BARAT",
     reserve: [
       "Instagram : @manggang_bbq",
     ],
@@ -1528,7 +1528,7 @@ const Merchants = [
     ],
     loc: "Jl. Gayung Kebonsari, No. 61 - 65, Ketintang, Gayungan, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Telp: (031) 82519000 / 08517090001",
       "Email: info@panahouse.co.id",
@@ -1582,7 +1582,7 @@ const Merchants = [
       "Palembang Icon",
       "Airlangga",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA SELATAN, JAKARTA UTARA, JAKARTA PUSAT, YOGYAKARTA, SURABAYA, TANGERANG, BEKASI, CIBUBUR, BANDUNG, MEDAN, BATAM, PALEMBANG, RIAU",
     reserve: [
       "Instagram : @xingfutang_indonesia",
     ],
@@ -1602,7 +1602,7 @@ const Merchants = [
     ],
     loc: "Jl. Sedap Malam No. 504, Jaka Setia, Bekasi Selatan - Jawa Barat 17147",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BEKASI",
     reserve: [
       "<strong>Instagram</strong> : @steak.over",
     ],
@@ -1621,7 +1621,7 @@ const Merchants = [
     ],
     loc: "Jl. Bayangkara Pusdiklantas No. 12, Serpong Utara, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Phone</strong>: 08139433133",
       "<strong>Email</strong>: bistrocafealam@gmail.com",
@@ -1644,7 +1644,7 @@ const Merchants = [
     ],
     loc: "Lotte Mall Bintaro, Jl. Moh Husni Thamrin GF, Pondok Jaya, Kec. Pd. Aren, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "<strong>Instagram</strong> : @warbun_sopbuntut",
     ],
@@ -1663,7 +1663,7 @@ const Merchants = [
     ],
     loc: "Jl. RE Martadinata No.20, Kel. Citarum Kec. Bandung Wetan - Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Instagram</strong> : @riau_20",
       "<strong>Telephone</strong> : 0813 2103 2020",
@@ -1725,7 +1725,7 @@ const Merchants = [
     ],
     loc: "Ruko Graha Boulevard, kelapa Dua - Gading Serpong",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Email</strong> : tscafe@gmail.com",
       "<strong>Socmed</strong> : @tscafe.gs",
@@ -1755,7 +1755,7 @@ const Merchants = [
       "Bintaro Jaya Sektor 7, Jl. Wahid Hasyim, Pd. Jaya, Jakarta, Kota Tangerang Selatan, Banten 15222",
       "Ruko Springlake Sumarecon Bekasi unit FR/03, Jl. Bulevar Utara, RT.005/RW.003, Marga Mulya, Kec. Bekasi Utara, Kota Bks, Jawa Barat 17142",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, BOGOR, DEPOK, TANGERANG, BEKASI",
     reserve: [
       "<strong>Telephone</strong>: 081288698829",
       "<strong>Instagram</strong>: @fatbubble.id ",
@@ -1777,7 +1777,7 @@ const Merchants = [
     ],
     loc: "Ruko Aristoteles RARTU 58, Jl. Scientia Blvd Barat, Kabupaten Tangerang, Banten 15334",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Instagram</strong> : @koce.idn",
     ],
@@ -1797,7 +1797,7 @@ const Merchants = [
     ],
     loc: "Ruko Aristoteles Selatan No.27, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Instagram</strong> : @goyacoffee.id",
     ],
@@ -1819,7 +1819,7 @@ const Merchants = [
     ],
     loc: "Jl. Gatot Subroto No. 14 Kelurahan Karang Mekar Kecamatan Cimahi Tengah, Cimahi",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "CIMAHI",
     reserve: [
       "<strong>Telephone</strong> : 0817 9967 747",
       "<strong>Instagram</strong> : @kopiboutiquecimahi",
@@ -1840,7 +1840,7 @@ const Merchants = [
     ],
     loc: "Jl. Raya Bukit Sejahtera No.8, Karang Jaya, Kec. Gandus, Palembang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BEKASI, JAKARTA BARAT, SERPONG, PALEMBANG",
     reserve: [
       "<strong>Sosmed</strong> : @izakaya_ninki_plg",
     ],
@@ -1863,7 +1863,7 @@ const Merchants = [
       "Mall Senayan Park UG - 28, Tanah Abang - Jakarta Pusat",
       "Mall Living World Alam Sutera lt.2 16B , Serpong Utara - Tangerang Selatan",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, TANGERANG SELATAN",
     reserve: [
       "<strong>Dalgju Senayan</strong> : 0816 1787 3088 / dalgju.006@gmail.com",
       "<strong>Dalgju Living World</strong> : 0856 9553 5426 / dalgju.005@gmail.com",
@@ -1886,7 +1886,7 @@ const Merchants = [
     ],
     loc: "Jl. Gading Serpong Boulevard No.9 Curug, Sangereng, Kelapa Dua - Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Email</strong> : gadingserpong@lis.indonesia.com",
       "<strong>Instagram</strong> : ljs.indonesia",
@@ -1942,7 +1942,7 @@ const Merchants = [
       "Arah Coffee Rawamangun, Jl. Pegambiran No. 37, Rawamangun, Kec. Pulo Gadung",
       "Arah Coffee Kahuripan, Ruko Kahuripan Avenue No. 39, Kedayon, Sumput, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur, 61226",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA UTARA, JAKARTA PUSAT, TANGERANG SELATAN, TANGERANG, BEKASI, BOGOR, SEMARANG, BANDUNG, SURABAYA",
     reserve: [
       "<strong>Phone</strong>: 0811 1916 1004",
       "<strong>Website</strong>: <a href='https://arahcoffee.co.id/' target='_blank'>arahcoffee.co.id</a>",
@@ -1969,7 +1969,7 @@ const Merchants = [
       "Jl. Salemba Tengah No. 17 RT. 10/RW.3, Paseban, Senen - Jakarta Pusat",
       "Jl. Otista 3 No. 22b RT.1/ RW. 5, Cipinang, Cependak, Jatinegara - Jakarta Timur",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, JAKARTA TIMUR",
     reserve: [
       "<strong>Socmed</strong> : @tjap.chili",
       "<strong>Email</strong> : tjap.chili@gmail.com",
@@ -2002,9 +2002,30 @@ const Merchants = [
       "Mall Ratu Indah, Lt.G, Jl. Lanto Dg Pasewang No. 10 (disamping Mako) mamajang, Makassar",
       "Trans Studio Mall, lantai dasar, Jl. HM Dg Patompo Metro Tanjung Bunga, Tamalate, Makassar",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA UTARA, MEDAN, TANGERANG, MANADO, BANDUNG, BATAM, MAKASSAR",
     reserve: [
       "<strong>Instagram</strong> : @liangsandwichid",
+    ],
+    additional: [],
+    additionalnew: []
+  },
+  {
+    merchantId: 633,
+    category: "restoran",
+    name: "HOT CHUNK",
+    image: "esrZ21OAg30fd6rr4hAK.jpg",
+    tnc: [
+      "<strong>Diskon 10%</strong> untuk semua menu dengan minimum pembelian Rp 22.000,-",
+      "Harus menunjukkan kartu anggota fisik atau kartu anggota digital untuk keanggotaan A-Member",
+      "Promosi ini tidak dapat digabungkan dengan promosi lainnya",
+      "Berlaku s.d 11 April 2025",
+    ],
+    loc: "Pakuwon Mall Surabaya - Foodcourt Lantai 1",
+    loclist : [],
+    filteredCity: "SURABAYA",
+    reserve: [
+      "Instagram : @hotchunkindonesia",
+      "TikTok : @hotchunk.indonesia",
     ],
     additional: [],
     additionalnew: []
@@ -2025,7 +2046,7 @@ const Merchants = [
     ],
     loc: "Porong Wei Express - Pakuwon Trade Center, Lt. UG, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @porongweiexpress",
     ],
@@ -2066,7 +2087,7 @@ const Merchants = [
       "<strong>Summarecon Mall Serpong</strong> - Lantai 2",
       "<strong>Paradise Walk Serpong</strong> – Lantai 1",
     ],
-    filteredCity: "",
+    filteredCity: "DEPOK, JAKARTA BARAT, JAKARTA TIMUR, JAKARTA UTARA, BEKASI, TANGERANG, TANGERANG SELATAN",
     reserve: [
       "<strong>Telephone</strong>: 0813 1577 1876",
       "<strong>Social Media</strong>: @puffy_cottoncandy",
@@ -2088,7 +2109,7 @@ const Merchants = [
     ],
     loc: "Jl.Pantai Berawa Canggu Desa Tibubeneng Kuta Utara 80361",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Tlp : 0361 8483939 / 0899 3736 272",
       "Email : info@finnsrecclub.com",
@@ -2163,7 +2184,7 @@ const Merchants = [
       "Penyetan Cok, Suncity Mall Madiun, Lt Ground. Jl. S. Parman No.8, Oro-oro Ombo, Kec. Kartoharjo, Kota Madiun, Jawa Timur 63119",
       "Penyetan Cok, Supermall Pakuwon, LT.1, Foodcourt. Jl. Mayjen Yono Suwoyo, Babatan, Wiyung, Kota SBY, Jawa Timur 60213",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA TIMUR,TANGERANG SELATAN, JAKARTA PUSAT, YOGYAKARTA, SURAKARTA, BOGOR, DEPOK, BEKASI, SEMARANG, SURABAYA, MALANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -2191,7 +2212,7 @@ const Merchants = [
       "Porong Wei - Ciputra World, lt 3 ( No Pork ), Surabaya",
       "Porong Wei - Grand City Mall, Lt. 4 ( No Pork ), Surabaya",
     ],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @porongwei dan @porongweisignature",
     ],
@@ -2211,7 +2232,7 @@ const Merchants = [
     ],
     loc: "JL. Raya Jatimulya, Jatimulya, Kec. Cilodong, Kota Depok, Jawa Barat",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DEPOK",
     reserve: [
       "<strong>Instagram</strong> : @TAWA_tanggalduwa",
     ],
@@ -2231,7 +2252,7 @@ const Merchants = [
     ],
     loc: "Jl. Veteran No. 1725, Kuto Batu, Kec. Lilir Tim. II, Kota Palembang, Sumatera Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Website : <a href='https://ramenations.com' target='_blank'>https://ramenations.com</a>",
       "Instagram : @ramenations",
@@ -2261,7 +2282,7 @@ const Merchants = [
       "<strong>Email</strong> : satuatap.riau87@gmail.com",
       "<strong>Telephone</strong> : 082115509302",
     ],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -2290,7 +2311,7 @@ const Merchants = [
       "Bebek Semangat, Royal Plaza LT.3 Food Society, LG. Wonokromo, Kec. Wonokromo, Kota SBY, Jawa Timur 60243",
       "Bebek Semangat Supermall Pakuwon, LT.1, Foodcourt. Jl. Mayjen Yono Suwoyo, Babatan, Wiyung, Kota SBY, Jawa Timur 60213",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA TIMUR, BOGOR, SURABAYA, MALANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -2308,7 +2329,7 @@ const Merchants = [
     ],
     loc: "Jl. Raya Serpong KM 5, No. 189, BSD, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @kukkucoffee",
     ],
@@ -2328,7 +2349,7 @@ const Merchants = [
     ],
     loc: "LLRE Martadinata No.89, Sumur Bandung - Bandung Wetan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Instagram</strong> : @sangimignano.idn",
       "<strong>Telephone</strong> : 0821 2727 8372",
@@ -2367,7 +2388,7 @@ const Merchants = [
       "<strong>Senayan Park</strong> - Jl. Gerbang Pemuda No.3, RT.1/RW.3, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus ibukota Jakarta 10270",
       "<strong>Pusat Grosir Cililitan</strong> Lantai GF No. PG81 - Jl. Mayjen Sutoyo No.76, RT.4/RW.11, Cililitan, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA TIMUR, JAKARTA BARAT, JAKARTA SELATAN, BEKASI, TANGERANG SELATAN, DEPOK, BOGOR",
     reserve: [
       "<strong>Whatsapp</strong> : 0852-1629-9517",
       "<strong>Instagram</strong> : @judaljadul_official",
@@ -2394,7 +2415,7 @@ const Merchants = [
       "Petak 6, Jl. Pancoran petak, Jl. Kemenangan III Gg. 6 No.43, Glodok, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11120",
       "Pantjoran PIK, Daerah Khusus Ibukota Jakarta 14460",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA BARAT",
     reserve: [
       "Instagram : @restoranikan.chiyuba",
     ],
@@ -2427,7 +2448,7 @@ const Merchants = [
       "<strong>SUSHIGAN! Sunter Griya</strong>, Jl Griya Agung No 76 RT 2/20, Sunter Agung, Kec Tanjung Priok, Jakarta Utara, 14350",
       "<strong>SUSHIGAN! Pamulang</strong>, Jl. Siliwangi Blok SH 21 No.22, Pamulang Barat, Kec. Pamulang, Kota Tangerang Selatan, Banten - 15417, [Deretan Mixue, Sebelah TANGKAS Listrik / Showroom Motor]",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, TANGERANG, BEKASI, DEPOK, CIKUPA, JAKARTA UTARA, TANGERANG SELATAN",
     reserve: [
       "<strong>Instagram</strong> : @sushigan.id",
     ],
@@ -2450,7 +2471,7 @@ const Merchants = [
       "Rans Nusantara Hebat, Jl. BSD Raya Pusat, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336",
       "Rasuna Garden Food Street, Jl. Epicentrum Tengah No. 2, RT.2/RW.5, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta, 12940",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN, JAKARTA SELATAN",
     reserve: [
       "<strong>Telephone</strong>: 081372294490",
       "<strong>Instagram</strong>: @fresh99_bsd",
@@ -2472,7 +2493,7 @@ const Merchants = [
     ],
     loc: "Jl. Bengawan No. 25 Kota, Cihapit - Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Instagram</strong> : @teapotto.id",
       "<strong>Website</strong> : www.teapotto.id ",
@@ -2493,7 +2514,7 @@ const Merchants = [
     ],
     loc: "Palembang Icon Mall, Lantai. 3, Jl. POM IX, Lorok Pakjo, Ilir Barat I, Palembang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @looppancake",
     ],
@@ -2513,7 +2534,7 @@ const Merchants = [
     ],
     loc: "Jl. Puri Widya Kencana No.JT1/28, Lidah Kulon, Kec. Lakarsantri, Surabaya, Jawa Timur 60213",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @nordicthefounders",
     ],
@@ -2537,7 +2558,7 @@ const Merchants = [
       "Ruko Gateway Junction TL 06 / 07, Surabaya",
       "Ruko Promenade, MERR No. 25, Surabaya",
     ],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @puffa.id",
     ],
@@ -2565,7 +2586,7 @@ const Merchants = [
       "E&W Burgers - Pakuwon City Mall, Level GF No. G-21, Pakuwon City Mall 2, Surabaya, Jawa Timur, 60112",
       "E&W Burgers Express - Pakuwon Trade Center, Studio Food Court FC-22, Pakuwon Trade Center, Surabaya, Jawa Timur, 60227",
     ],
-    filteredCity: "",
+    filteredCity: "SIDOARJO, TANGERANG, JAKARTA UTARA",
     reserve: [
       "Instagram : @EWBURGERS",
     ],
@@ -2644,7 +2665,7 @@ const Merchants = [
       "Suteki Sushi  Supermall Pakuwon (PTC) Supermall Pakuwon, LT.1, Jl. Mayjen Yono Suwoyo, Babatan, Wiyung, Kota SBY, Jawa Timur 60213",
       "Suteki Sushi  Galaxy Mall Galaxy Mall 1, LT.3,. Jl. Dharmahusada Indah Timur No.35-37, Mulyorejo, Kec. Mulyorejo, Kota SBY, Jawa Timur 60115",
     ],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -2663,7 +2684,7 @@ const Merchants = [
     ],
     loc: "Jl. Simon P. H. Lipoeto, Kayubulan, Limboto, Kab. Gorontalo",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "GORONTALO",
     reserve: [
       "Instagram : @semenjanacoffee_",
     ],
@@ -2687,7 +2708,7 @@ const Merchants = [
       "Kazuhiro Supermall Karawaci Kelapa Dua, Kab.Tangerang",
       "Kazuhiro Lippo Mall Puri Kembangan Jakarta Barat",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, JAKARTA BARAT",
     reserve: [
       "<strong>Email</strong>: Kazuhiro.nipponricebowl@gmail.com",
       "<strong>Instagram</strong>: @kazuhiro.id",
@@ -2714,7 +2735,7 @@ const Merchants = [
       "Ruko Jalur Sutera, Pinang Kunciran - Tangerang",
       "Green Terrace TMII, Ceger Cipayung – Jakarta Timur",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, JAKARTA TIMUR",
     reserve: [
       "<strong>Telephone</strong> : 081398768046",
       "<strong>Email</strong> : bakpaonyakoko@gmail.com",
@@ -2745,7 +2766,7 @@ const Merchants = [
       "Kopi Se-Indonesia ToGo, TokyoHub, Tokyo Riverside Apartment, Jl. Otista Pantai Indah Kapuk 2, Kabupaten Tangerang, Banten 15510",
       "Kopi Se-Indonesia ToGo, Pecenongan, Redtop Complex D7, Jl. Pecenongan Raya No.72, Kb. Klp., Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10120",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, JAKARTA SELATAN, JAKARTA BARAT, JAKARTA UTARA, TANGERANG SELATAN, SURABAYA",
     reserve: [
       "<strong>Instagram</strong>: @kopiseindonesia",
     ],
@@ -2765,7 +2786,7 @@ const Merchants = [
     ],
     loc: "Madiun Lor, Manguharjo, Madiun City, East Java 63122",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MADIUN",
     reserve: [
       "<strong>Instagram</strong> : @workandplay.id",
     ],
@@ -2787,7 +2808,7 @@ const Merchants = [
     ],
     loc: "Jl. Tunjungan No. 82, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @cobapho.id",
     ],
@@ -2832,7 +2853,7 @@ const Merchants = [
     ],
     loc: "Jl. Sri Gunting, 9 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30113",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @forgoodluck.rajawali",
     ],
@@ -2852,7 +2873,7 @@ const Merchants = [
     ],
     loc: "Jln. Senopati, Sedati, Sidoarjo, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @trofee.coffee",
     ],
@@ -2898,7 +2919,7 @@ const Merchants = [
     ],
     loc: "Ruko North Sorrento, No. 11, Jl. Ir. Sukarno, Gading Serpong, Serpong, Tangerang, Banten",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @miyukidessertbar",
     ],
@@ -2921,7 +2942,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Jakarta - l. Raya Gading Kirana No.Kav. 1, RT.18/RW.8, Klp. Gading Bar., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "<strong>Email</strong> : reservation.jkt@el-hotels.com",
       "<strong>Telephone</strong> : 021-45873355",
@@ -2943,7 +2964,7 @@ const Merchants = [
     ],
     loc: " Jl. Anjasmoro No.32, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @caturraespresso",
     ],
@@ -2966,7 +2987,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Jakarta - l. Raya Gading Kirana No.Kav. 1, RT.18/RW.8, Klp. Gading Bar., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "<strong>Email</strong> : reservation.jkt@el-hotels.com",
       "<strong>Telephone</strong> :021-45873355",
@@ -2990,7 +3011,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Bandung - Jl. Merdeka No.2, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Email</strong>: reservation.bdg@el-hotels.com",
       "<strong>Telepon</strong>: 081212222024",
@@ -3014,7 +3035,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Bandung - Jl. Merdeka No.2, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Email</strong>: reservation.bdg@el-hotels.com",
       "<strong>Telepon</strong>: 081212222024",
@@ -3039,7 +3060,7 @@ const Merchants = [
       "Rans Nusantara Hebat - BSD",
       "Duta Buah Segar - Gading Serpong",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @jerukria",
     ],
@@ -3062,7 +3083,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Bandung - Jl. Merdeka No.2, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Email</strong>: reservation.bdg@el-hotels.com",
       "<strong>Telepon</strong>: 081212222024",
@@ -3086,7 +3107,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Bandung - Jl. Merdeka No.2, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Email</strong> : reservation.bdg@el-hotels.com",
       "<strong>Telepon</strong> : 081212222024",
@@ -3110,7 +3131,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Bandung - Jl. Merdeka No.2, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Email</strong> : reservation.bdg@el-hotels.com",
       "<strong>Telephone</strong> : 081212222024",
@@ -3131,7 +3152,7 @@ const Merchants = [
     ],
     loc: "Jln. Bogor Baru Blok AX No. 5 Tegallega, Bogor",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "Instagram : @raindevu.coffee",
       "Telephone : 0898006900",
@@ -3155,7 +3176,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Yogyakarta - Jl. Dagen No.6, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55271.",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA",
     reserve: [
       "<strong>Email</strong>: rsv.jog@el-hotels.com",
       "<strong>Telepon</strong>: 0819 9366 8899",
@@ -3179,7 +3200,7 @@ const Merchants = [
     ],
     loc: "Jl. Dagen No. 6, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta, 55271.",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA",
     reserve: [
       "<strong>Email</strong> : rsv.jog@el-hotels.com",
       "<strong>Telepon</strong> : 0819 9366 8899",
@@ -3203,7 +3224,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Malang – Green Hills Residence Jalan Bukit Palem Raya No.1&3, Kendalsari, Ngijo, Kec. Karang Ploso, Kabupaten Malang, Jawa Timur 65152",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MALANG",
     reserve: [
       "<strong>Email</strong> : reservation.mlg@el-hotels.com",
       "<strong>Telephone</strong> : 0341469095",
@@ -3227,7 +3248,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Kartika Wijaya Batu - Jl. Panglima Sudirman No.127, Pesanggrahan, Kec. Batu, Kota Batu, Jawa Timur 65313",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MALANG",
     reserve: [
       "<strong>Email</strong>: reservasi.batu@el-hotels.com ",
       "<strong>Telepon</strong>: 081334259696",
@@ -3251,7 +3272,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Kartika Wijaya Batu - Jl. Panglima Sudirman No.127, Pesanggrahan, Kec. Batu, Kota Batu, Jawa Timur 65313",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MALANG",
     reserve: [
       "<strong>Email</strong> : reservasi.batu@el-hotels.com",
       "<strong>Telephone</strong> : 081334259696",
@@ -3275,7 +3296,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Banyuwangi - Jl. Raya Jember No.KM.7, Krajan, Dadapan, Kec. Kabat, Kabupaten Banyuwangi, Jawa Timur 68461",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "<strong>Email</strong>: reservation.bwi@el-hotels.com",
       "<strong>Telepon</strong>: 08113507703",
@@ -3299,7 +3320,7 @@ const Merchants = [
     ],
     loc: "éL Hotel Banyuwangi - Jl. Raya Jember No.KM.7, Krajan, Dadapan, Kec. Kabat, Kabupaten Banyuwangi, Jawa Timur 68461",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "<strong>Email</strong>: reservation.bwi@el-hotels.com",
       "<strong>Telepon</strong>: 08113507703",
@@ -3381,7 +3402,7 @@ const Merchants = [
     ],
     loc: "Jl. Hasanudin no 42, Badran, Purwosari, Laweyan, Surakarta",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURAKARTA",
     reserve: [
       "Instagram : @balebrewsoc",
     ],
@@ -3405,7 +3426,7 @@ const Merchants = [
     ],
     loc: "Jl. Springs Boulevard No. 80 RNG, Cihuni / Pagedangan, Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telp</strong>: 0821 2563 5257",
       "<strong>Email</strong>: grilandtwist.gadingserpong@gmail.com",
@@ -3454,7 +3475,7 @@ const Merchants = [
     loclist : [
       "<strong>Arunika Resto</strong>: Jl. Sholeh Iskandar No.5, RT.04/RW.11, Kedungbadak, Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16164",
     ],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Email</strong>: fospv.arnavabogor@gmail.com",
       "<strong>Website</strong>: <a href='https://www.bogorvalleyhotel.com' target='_blank'>www.bogorvalleyhotel.com</a>",
@@ -3476,7 +3497,7 @@ const Merchants = [
     ],
     loc: "Jl. Darmo Harapan Utara 8 ET. 01, Tandes, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @huecoffee.id",
     ],
@@ -3496,7 +3517,7 @@ const Merchants = [
     ],
     loc: "Jl. Tulodong Atas No.14, RT.6/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "Instagram : @buzzcoffee.id",
     ],
@@ -3519,7 +3540,7 @@ const Merchants = [
     loclist : [
       "<strong>Kpodjok Kopi Daeng</strong>: Jl. Sholeh Iskandar No.5, RT.04/RW.11, Kedungbadak, Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16164",
     ],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Email</strong>: fospv.arnavabogor@gmail.com",
       "<strong>Website</strong>: www.bogorvalleyhotel.com",
@@ -3542,7 +3563,7 @@ const Merchants = [
     ],
     loc: "Ruko Legian Blok A55/297 Citra Maia Rava 2, Maja, Lebak – Banten",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telp</strong>: 085823000297",
     ],
@@ -3563,7 +3584,7 @@ const Merchants = [
     ],
     loc: "Jl. Achmad Adnawijaya (Pandu Raya) No.34 Bogor",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "Telpon : 0812 8211 1128",
       "IG : @terasdewata",
@@ -3584,7 +3605,7 @@ const Merchants = [
     ],
     loc: "Komp. Metro Permata 2 Blok D6, No. 12, Karang Tengah, Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @satuoven",
       "Tiktok : satuoven",
@@ -3631,7 +3652,7 @@ const Merchants = [
       "Orange Dental Pamulang. BLOK. SH9, Ruko Pamulang Permai, Jl. Pamulang Raya No.14, Tangerang Selatan",
       "Orange Dental Gunung Sahari. Jl. Gn. Sahari No.2C, Gn. Sahari Utara, Jakarta Pusat",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN, DEPOK, BEKASI, TANGERANG",
     reserve: [
       "Website : <a href='https://orangedentalhouse.com' target='_blank'>https://orangedentalhouse.com</a>",
       "Instagram : @orangedentalhouse",
@@ -3696,7 +3717,7 @@ const Merchants = [
       "Siloam Hospitals Banjarmasin",
       "Siloam Agora",
     ],
-    filteredCity: "",
+    filteredCity: "CIKARANG, SURABAYA, TANGERANG, JAMBI, BALIKPAPAN, MANADO, MAKASSAR, PALEMBANG, DEPOK, PURWAKARTA, KUPANG, MEDAN, LOMBOK, DENPASAR, BEKASI, SEMARANG, JEMBER, MANADO, AMBON, BANJARMASIN, AGORA",
     reserve: [
       "<strong>Telepon</strong> : 021 2566 8000",
     ],
@@ -3730,7 +3751,7 @@ const Merchants = [
       "Cikini : 081119151128",
       "Taman Ratu : 081119151129",
     ],
-    filteredCity: "",
+    filteredCity: "BEKASI, DEPOK, BOGOR, JAKARTA BARAT, JAKARTA PUSAT, JAKARTA TIMUR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -3754,7 +3775,7 @@ const Merchants = [
     ],
     loc: "RS. Bethsaida : Jalan Boulevard Raya Gading Serpong Kav. 29, Gading Serpong Tangerang -15810",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
         "Telp : 021-2930-9999 Ext 905",
     ],
@@ -3781,7 +3802,7 @@ const Merchants = [
       "<strong>Jakarta Pusat</strong> : Jl.Danau Tondano No.12 Bendungan Hilir Jakarta Pusat",
       "<strong>Tangerang Selatan</strong> : Ruko Brooklyn Alam Sutera Serpong Utara",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, TANGERANG",
     reserve: [
       "<strong>Jakarta Pusat</strong> : 0811 1769 199",
       "<strong>Tangerang Selatan</strong> : 0813 1313 0699",
@@ -3805,7 +3826,7 @@ const Merchants = [
     ],
     loc: "Jl. Danau Sunter Utara Sunter Paradise I, Sunter Agung, Jakarta Utara",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "<strong>Telp</strong>: 0811 8911 911",
       "<strong>Email</strong>: drivethru@royalprogress.com",
@@ -3837,7 +3858,7 @@ const Merchants = [
     ],
     loc: "Jl. Paus Raya No.1, RT.002/RW.004, Karawaci Baru, Kec. Karawaci, Kota Tangerang, Banten 15116",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telephone</strong> : 0812-1900-0052",
       "<strong>Email</strong> : marketingassyifa7@gmail.com",
@@ -3863,7 +3884,7 @@ const Merchants = [
       "Klinik Econolab - Jl. Limo No. 6/45, Kebayoran Lama, South Jakarta",
       "Homecare (free) dengan jarak maksimal 30km dari klinik Econolab",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "Instagram: @Econolab.id",
       "Website: <a href='https://econolab.co.id' target='_blank'>econolab.co.id</a>",
@@ -3889,7 +3910,7 @@ const Merchants = [
     ],
     loc: "Primaya Hospital Tangerang : Jl. M.H Thamrin No.3, Kebon Nanas, Cikokol, Pinang – Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telepon</strong> : 021-5575 8888",
       "<strong>Email</strong> : Mkt.tgr@primayahospital.com",
@@ -3922,7 +3943,7 @@ const Merchants = [
       "Jl. Sultan Hasannudin No.31, Saweri Gading, Makassar",
       "Jl. Ahmad Sobana No.5, Bangbarung, Bogor",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, DENPASAR, SEMARANG, TANGERANG SELATAN, MAKASSAR, BOGOR",
     reserve: [
       "MS Glow Kemang : Phone : 081806908438, email : msglowclinickemang@gmail.com, IG : @msglowclinicjkt",
       "MS Glow Bali : Phone : 0361-4742735, email : msglowclinicbali90@gmail.com, IG : @msglowclinicbali ",
@@ -3971,7 +3992,7 @@ const Merchants = [
       "Ruko Sentra Niaga Bulevard Hijau Blok SN.2 No.21B Pejuang, Kec.Medan Satria, Kota Bekasi",
       "Jl. Pluit Karang No. 30 - 30A, Blok CC 5, Rt. 13, Rw. 17, Kel. Pluit, Kec. Penjaringan, Jakarta Utara",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA SELATAN, JAKARTA BARAT, JAKARTA PUSAT, BEKASI, TANGERANG",
     reserve: [
       "Instagram : @ocean_dental",
     ],
@@ -3997,7 +4018,7 @@ const Merchants = [
     ],
     loc: "RS St. Carolus Summarecon Serpong, Jl. Gading Golf Boulevard No.Kavling 08, Cihuni, Kec. Pagedangan, Kabupaten Tangerang, Banten 15332",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telp</strong>: 021 54220811",
       "<strong>Email</strong>: emroni@carolussummarecon.com",
@@ -4024,7 +4045,7 @@ const Merchants = [
     ],
     loc: "Jl. Lemah Nendeut No. 10, Sukawarna / Sukarjadi, Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Telp</strong>: 022 2010593",
       "<strong>Hp</strong>: 081221906850 / 087880705599",
@@ -4047,7 +4068,7 @@ const Merchants = [
     ],
     loc: "Ruko Boulevard Blok BA3 / No. 40, Gading Serpong, Pakulonan Barat, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @xyz.flyfit",
     ],
@@ -4081,7 +4102,7 @@ const Merchants = [
       "<strong>Gading Serpong</strong> : Jl. Boulevard Raya Gading Serpong No.38,Kabupaten Tangerang",
       "<strong>Surabaya</strong> : Ruko Puncak Bukit Golf Blok BT, Jalan Bukit Darmo, Pradahkalikendal, Pradahkalikendal, Dukuhpakis, Surabaya, Jawa Timur 60225",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA UTARA, JAKARTA SELATAN, TANGERANG, SURABAYA",
     reserve: [
       "<strong>Telp</strong>: 0838 11308 999",
       "<strong>Email</strong>: marketingyogafit@gmail.com",
@@ -4106,7 +4127,7 @@ const Merchants = [
     ],
     loc: "Metland Cyber City , Jl. Tol Jkt - Tangerang, Parung Jaya, Kec. Karang Tengah , Kota Tangerang, Banten, 15159",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @mandayaroyalhospitalpuri",
     ],
@@ -4130,7 +4151,7 @@ const Merchants = [
       "<strong>Kelapa Gading</strong> : JL. Raya Kelapa Nias Blok LC1 no. 12A, West Kelapa Gading, Kelapa Gading",
       "<strong>Cengkareng</strong> : Rukan Sedayu Square Blok I No. 35, RT.1/RW.12, Cengkareng Bar., Kecamatan Cengkareng",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA UTARA, JAKARTA BARAT",
     reserve: [
       "<strong>Instagram</strong> : @szanclinic",
     ],
@@ -4154,7 +4175,7 @@ const Merchants = [
     ],
     loc: "Jl. Danau Sunter Utara Sunter Paradise I, Sunter Agung, Jakarta Utara",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "<strong>Telp</strong>: 0811 8911 911",
     ],
@@ -4214,7 +4235,7 @@ const Merchants = [
       "<strong>SATU Dental Surabaya Barat Bukit Darmo</strong>, Ruko Bukit Darmo Boulevard 10A, Surabaya, Jawa Timur 60187",
       "<strong>SATU Dental Surabaya Tengah Gubeng</strong>",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA SELATAN, JAKARTA UTARA, JAKARTA PUSAT, TANGERANG, BEKASI, CIBUBUR, DEPOK, BOGOR, SURABAYA",
     reserve: [
       "<strong>Website</strong>: <a href='https://www.satudental.com' target='_blank'>www.satudental.com</a>",
       "<strong>Telp</strong>: +62 812 3111 5751",
@@ -4235,7 +4256,7 @@ const Merchants = [
     ],
     loc: "Jl. Cimanuk No 2 RT02 RW08, Citarum - Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Telephone</strong> : 081288835560",
       "<strong>Email</strong> : omdc.bandung@gmail.com",
@@ -4278,7 +4299,7 @@ const Merchants = [
       "<strong>Happy Dental Clinic Aeon Mall Tanjung Barat</strong>: Aeon Mall Tanjung Barat Lt. 2 Jl. Raya Tanjung Barat No.163, RW.4, Tanjung Barat Jakarta Selatan",
       "<strong>Happy Dental Clinic Aeon Mall BSD</strong> Unit 2-58A, Lt. 2, Situ Gadung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, JAKARTA SELATAN, JAKARTA PUSAT, JAKARTA UTARA, CIBUBUR, TANGERANG, TANGERANG SELATAN, BEKASI, BANDUNG, BATAM",
     reserve: [
       "<strong>Happy Dental Clinic Mall Ciputra Jakarta</strong>: Phone: 0819-11065357 | Email: happydentalcl@gmail.com",
       "<strong>Happy Dental Clinic Mall Ciputra Cibubur</strong>: Phone: 0812-83809970 | Email: happydentalmcc@gmail.com",
@@ -4319,7 +4340,7 @@ const Merchants = [
     ],
     loc: "Beauty Glamy Studio: Jl. Pesanggrahan no 35 D, Kembangan Selatan Jakarta Barat",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT",
     reserve: [
       "<strong>Telephone</strong>: 085922413423",
       "<strong>Instagram</strong>: @beautyglamystudio",
@@ -4341,7 +4362,7 @@ const Merchants = [
     ],
     loc: "Jl. Alternatif Cibubur, Harjamukti, Kec. Cimanggis, Kota Depok, Jawa Barat 16454",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DEPOK",
     reserve: [
       "Instagram : @mimobeauty.official",
     ],
@@ -4381,7 +4402,7 @@ const Merchants = [
       "<strong>Axel Dental Buaran</strong> – Jl. Buaran Raya No. 92, Kel. Klender, Kec. Duren Sawit, Kota Jakarta Timur (08118835300 / axeldental.buaran@gmail.com)",
       "<strong>Axel Dental Karang Tengah</strong> – Jl. Metro Permata I Blok E2 No. 1, Kel. Karang Mulya, Kec. Karang Tengah, Kota Tangerang (08118413800 / axeldental.karangtengah@gmail.com)",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, TANGERANG SELATAN, BEKASI, DEPOK, BOGOR",
     reserve: [
       "<strong>Website</strong>: <a href='https://axeldental.id/' target='_blank'>https://axeldental.id/</a>",
       "<strong>Instagram</strong>: @axel.dental",
@@ -4403,7 +4424,7 @@ const Merchants = [
     ],
     loc: "Serenity Dental Care: JI, Bhayangkara Pusdiklantas. Ruko Crystal 8 no. 3, Alam Sutera, Paku Alam / Serpong Utara, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "<strong>Phone</strong>: 0819 3808 1919",
       "<strong>Website</strong>: www.serenitydental.id",
@@ -4442,7 +4463,7 @@ const Merchants = [
       "Rumah Cantik Farina Bulevar Hijau Blok A1 no. 7, Kota Harapan Indah. Telephone : 02122163344 / 081296373970",
       "Farina Academy Kavling CBP Blok V No 10 Galuh Mas, Karawang. Telephone : 081282495663",
     ],
-    filteredCity: "",
+    filteredCity: "KARAWANG, BEKASI, SUBANG, PURWAKARTA, RENGASDENGKLOK, CIKARANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -4462,7 +4483,7 @@ const Merchants = [
     ],
     loc: "Jl.Mentawai 150 Lippo Karawaci Utara (Depan Sekolah Dian Harapan)",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "<strong>Telephone</strong> : 089690177621",
       "<strong>Instagram</strong> : doctorskinclinic",
@@ -4485,7 +4506,7 @@ const Merchants = [
     ],
     loc: "Jl Soekarno Hatta / Arengka 1, Kavling No.03/04, Labuh Baru Tim., Payung, Kota Pekanbaru, Riau 28292",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PEKANBARU",
     reserve: [
       "<strong>Instagram</strong> : @beningsclinic_pekanbaru",
     ],
@@ -4513,7 +4534,7 @@ const Merchants = [
       "Perumahan Grand Cilamaya Residence blok X1,Jl Raya Cilamaya Ds. Mekarmaya Cilamaya Wetan. Telephone : 02648380951 / 085889698656",
       "Klinik Dr Yenni Member of NU Farina Jln. Mangga Besar Raya No 21 -23 Mangga Besar, Gedung Linayanti Jakarta Barat. Telephone : 081324650081",
     ],
-    filteredCity: "",
+    filteredCity: "KARAWANG, JAKARTA BARAT",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -4533,7 +4554,7 @@ const Merchants = [
     ],
     loc: "Kavling CBP blok V No 10 Galuhmas, Karawang. Telephone : 0267407723 / 08111303338",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "KARAWANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -4558,7 +4579,7 @@ const Merchants = [
       "Jl. lr. H. Juanda No.69, 40116 (Hotel Moxy, Taman Sari, Bandung Wetan",
       "Jl. Boulevard Raya Gading Serpong Blok 05/08 No.2 Lt.4 (Graha Emerald), Kelapa Dua",
     ],
-    filteredCity: "",
+    filteredCity: "BOGOR, TANGERANG",
     reserve: [
       "Matraman : info.jakarta@ marvee.id",
       "Bogor Tengah : lnfo.bogor @marvee.id",
@@ -4588,7 +4609,7 @@ const Merchants = [
       "<strong>Kelapa Gading</strong> : JL. Raya Kelapa Nias Blok LC1 no. 12A, West Kelapa Gading, Kelapa Gading",
       "<strong>Cengkareng</strong> : Rukan Sedayu Square Blok I No. 35, RT.1/RW.12, Cengkareng Bar., Kecamatan Cengkareng",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA UTARA, JAKARTA BARAT",
     reserve: [
       "<strong>Instagram</strong> : @szanclinic",
     ],
@@ -4610,7 +4631,7 @@ const Merchants = [
     ],
     loc: "Kavling CBP blok V No 10 Galuhmas, Karawang. Telephone : 0267407723 / 08111303338",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "KARAWANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -4633,7 +4654,7 @@ const Merchants = [
       "Larissa Aesthetic Center Madiun Jl. Perintis Kemerdekaan 12 , Kartoharjo, Madiun - Jawa Timur",
       "Jl. Jend. Sudirman No.34, Kebon Agung, Magetan - Jawa Timur",
     ],
-    filteredCity: "",
+    filteredCity: "MADIUN",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -4652,7 +4673,7 @@ const Merchants = [
     ],
     loc: "Ruko Provence Suites A1/22, Jl. Letnan Sutopo, Lengkong Wetan, Serpong, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "Instagram : @dream.dermis",
     ],
@@ -4674,7 +4695,7 @@ const Merchants = [
     ],
     loc: "Ruko Victoria Lane No 16, Panunggangan Pinang - Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Reservation Number</strong> : 0851-7687-3499",
       "<strong>Telephone</strong> : 021-50871644",
@@ -4715,6 +4736,30 @@ const Merchants = [
     additionalnew: []
   },
   {
+    merchantId: 634,
+    category: "kesehatandankecantikan",
+    name: "Y CLINIC",
+    image: "vl2DdpTMudFfdXPYaVJ4.jpg",
+    tnc: [
+      "<strong>Diskon 20%</strong> untuk pelayanan Aesthetic dan Wellness seperti Peeling Wajah, RF Wajah, Facial Dermabrasi, BDB Slender, Stress Management Program dan Epigenetic (Berlaku untuk pasien baru)",
+      "<strong>Diskon 10%</strong> untuk seluruh perawatan (Berlaku untuk existing pasien)",
+      "Harus menunjukkan kartu member fisik atau kartu member digital keanggotaan A-Member",
+      "Tidak dapat digabungkan dengan promosi lainnya",
+      "Berlaku s.d 15 Oktober 2024",
+    ],
+    loc: "Ruko Kebayoran Arcade 1 Blok KA/C2-25, Pondok Aren - Tangerang Selatan",
+    loclist : [],
+    filteredCity: "TANGERANG SELATAN",
+    reserve: [
+      "<strong>Instagram</strong> : @yclinic.id",
+      "<strong>Telephone</strong> : 0811 890 225",
+      "<strong>Email</strong> : <a href='mailto:yclinic.id@gmail.com' target='_blank'>yclinic.id@gmail.com</a>",
+      "<strong>Website</strong> : <a href='https://www.yclinic.id' target='_blank'>www.yclinic.id</a>",
+    ],
+    additional: [],
+    additionalnew: []
+  },
+  {
     merchantId: 322,
     category: "kesehatandankecantikan",
     name: "DENTALOSOPHY",
@@ -4734,7 +4779,7 @@ const Merchants = [
       "<strong>Dentalosophy BSD:</strong> BSD City, Kav Commercial International School II No. 8 BSD City, Jl. Sekolah Foresta, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331",
       "<strong>Dentalosophy PIK :</strong> Ruko Golf Island RGIA No. 12 Lantai 2, Pantai Indah Kapuk, Penjaringan - Jakarta Utara",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, JAKARTA SELATAN , JAKARTA UTARA",
     reserve: [
       "<strong>Dentalosophy Senopati</strong>: Phone: 081908663338 | Email: marketing.dentalosophy@gmail.com | Instagram: Dentalosophy_id",
       "<strong>Dentalosophy Pondok Indah</strong>: Phone: 081295372212 | Email: fifi.ismail09@yahoo.com | Instagram: Dentalosophy_pi",
@@ -4763,7 +4808,7 @@ const Merchants = [
     ],
     loc: "Komplek Ruko Mall Of Indonesia (MOI), Jl. Boulevard Barat Raya, Blok B, No. 19 - 20",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "<strong>Telephone</strong>: 0821 7000 2399",
       "<strong>Email</strong>: somethinc.clinic@beautyhaul.com",
@@ -4790,7 +4835,7 @@ const Merchants = [
       "Ruko Jade Blok JA 27 Duta lndah Residence. Kel. Gebang, Priuk, Tangerang – Banten (085320020028)",
       "Ruko Legian Blok A55/297 Citra Maia Rava 2, Maja, Lebak – Banten Informasi & Reservasi (085823000297)",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : Edc clinic",
     ],
@@ -4811,7 +4856,7 @@ const Merchants = [
     ],
     loc: "Jl. Babe Palar Rike Tanjung batu, Wanea - Manado",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MANADO",
     reserve: [
       "<strong>Telephone</strong> : +62 812-4302-5373",
       "<strong>Email</strong> : manado@ekles-clinic.com",
@@ -4837,7 +4882,7 @@ const Merchants = [
       "Karawaci, Kelapa dua, Banten",
       "Puri Indah, Kembangan, Jakarta Barat",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, TANGERANG",
     reserve: [
       "Telephone: 021-56065545 (Citraland), 021-54200510 (Karawaci), 0215822462 (Puri Indah)",
       "Email: info@estheticrosereve.com",
@@ -4908,7 +4953,7 @@ const Merchants = [
       "Duren Sawit - Jl. Bunga Rampai Raya No. 2a, Malaka Jaya, Duren Sawit, Jakarta Timur",
       "Mall Ambassador - Jl. Prof. Dr. Satrio Lt. 4 No. 9 Mall Ambassador, Kuningan, Jakarta Selatan",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA TIMUR, JAKARTA SELATAN, JAKARTA PUSAT, RIAU",
     reserve: [
       "Whatsapps : <a href='https://api.whatsapp.com/send?phone=6285280098125A'>+62 852-8009-8125</a> (untuk reservasi)",
       "Instagram : @dentsmile_clinic",
@@ -4978,7 +5023,7 @@ const Merchants = [
     ],
     loc: "Jl. Achmad Adnawijaya NO. 90A, Indraprasta II, Bantarjati/ Bogor Utara, Kota Bogor 16153",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "Instagram : @theclinic_bogor",
       "Telephone : 0251- 8203070",
@@ -5001,7 +5046,7 @@ const Merchants = [
     ],
     loc: "RS Insan Permata, Jl. Bhayangkara I No. 68 Kel. Pakujaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15324",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG SELATAN",
     reserve: [
       "<strong>Telephone</strong>: 0856 8206 667",
       "<strong>Email</strong>: marketingrsinsanpermata@gmail.com",
@@ -5027,7 +5072,7 @@ const Merchants = [
       "Jl. Jalur Sutra Ruko The Prominence, Blok 38E, Lt. 1, No. 42, Panunggangan Timur, Kota Tangerang, Alam Sutera ",
       "Jl. Peta No. 151A, Suka Asih, Bojongloa Kaler, Bandung",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, JAKARTA BARAT, BANDUNG",
     reserve: [
       "Jakarta Barat: 081212006481",
       "Alam Sutera : 081290537190 ",
@@ -5052,7 +5097,7 @@ const Merchants = [
     ],
     loc: "Ruko Grand Galaxy Blok RGJ, No. 558, Jakasetia, Bekasi Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BEKASI SELATAN",
     reserve: [
       "Telephone: 08111150773",
       "Email: selarasaesthetic@gmail.com",
@@ -5079,36 +5124,8 @@ const Merchants = [
       "Jl. Daksa 1  No.11, Kelurahan  Selong, Kebayoran Baru Jakarta Selatan (Tlp : 021 722 0009 / 0878 8425 4917)",
       "Ruko Festive Garden AA 16 No.89, Jl.Grandwisata Lambangsari Tambun selatan Bekasi (Tlp : 021 8258 2992 / 0812 1331 3234)",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, BEKASI",
     reserve: [],
-    additional: [],
-    additionalnew: []
-  },
-  {
-    merchantId: 317,
-    category: "kesehatandankecantikan",
-    name: "DREAM DERMIS", 
-    image: "fsAA7vn6u7MwpUnsKtoE.png",
-    tnc: [
-      "<strong>Diskon 10%</strong> untuk pembelian produk dan treatment dengan minimum transaksi Rp 5.000.000, -",
-      "Promo buy 3 untuk mendapatkan 1x free treatment",
-      "Program Promosi berlaku dengan menunjukkan Kartu Fisik atau Kartu Digital keanggotaan A-Member",
-      "Harga Program Promosi sudah termasuk Komisi Pelayanan dan Pajak",
-      "Program tidak dapat digabungkan dengan Promo lain",
-      "Berlaku 1 Juni 2023 s.d 1 Juni 2024",
-    ],
-    loc: "",
-    loclist : [
-      "<strong>Klinik Estetika Dream Dermis, BSD Serpong</strong>: Ruko Provence Suites BSD, Jl. Letnan Sutopo, Lengkong Wetan, Serpong, Kota Tangerang Selatan, Banten 15310",
-    ],
-    filteredCity: "",
-    reserve: [
-      "<strong>Email</strong>: dream.dermis@gmail.com",
-      "<strong>Website</strong>: <a href='https://www.dreamdermis.com' target='_blank'>www.dreamdermis.com</a>",
-      "<strong>Telephone</strong>: 0813 8880 9800",
-      "<strong>Instagram</strong>: @dream.dermis",
-      "<strong>TikTok</strong>: @dream_dermis22",
-    ],
     additional: [],
     additionalnew: []
   },
@@ -5127,7 +5144,7 @@ const Merchants = [
     ],
     loc: "Jl. TKI III Blok H-I, Mekarrahayu, Margaasih, Kab. Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Telephone</strong> : 0851 8383 3168",
       "<strong>Email</strong> : rs.ukm.bandung@gmail.com",
@@ -5165,7 +5182,7 @@ const Merchants = [
       "<strong>CLARICE MALANG 1</strong> - JL. PUNCAK MANDALA NO 26 -28 PISANG CANDI, KEC. SUKUN, KOTA MALANG TELP : 0821-5929-1688 IG : clarice.malang",
       "<strong>CLARICE MALANG 2</strong> - JL. RAYA SAWOJAJAR RUKO WOW BLOK A21 - A22 KEL. SAWOJAJAR, KEDUNGKANDANG, MALANG TELP : 0811-3089-788 IG : clarice.malang",
     ],
-    filteredCity: "",
+    filteredCity: "SIDOARJO",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -5212,7 +5229,7 @@ const Merchants = [
       "Jalan Imogiri Timur No. 113 D Giwangan, Giwangan / Umbulharjo, Kota Yogyakarta",
       "Jalan Babarsari No. 11, Janti, Caturtunggal / Depok, Kab. Sleman",
     ],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA, DEPOK",
     reserve: [
       "Telephone Bumijo : 087880890890",
       "Telephone Giwangan : 087880890891",
@@ -5238,7 +5255,7 @@ const Merchants = [
     ],
     loc: "Berlaku di seluruh outlet Prodia",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "AMBON, BALIKPAPAN, BANDA ACEH, BANDAR LAMPUNG, BANDUNG, BANJARMASIN, BATAM, BEKASI, BENGKULU, BIMA, BINJAI, BITUNG, BLITAR, BOGOR, DEPOK, DENPASAR, GORONTALO, MEDAN, SURABAYA, JAMBI, JAYAPURA, JEMBER, KARAWANG, KUPANG, MAKASAR, MALANG, MANADO, MATARAM, MAUMERE, PADANG, PALEMBANG, PALOPO, PANGKAL PINANG, PEKANBARU, PONTIANAK, SALATIGA, SAMARINDA, SEMARANG, SERANG, SURABAYA, SOLO, SORONG, SUKABUMI, TANGERANG, TANGSEL, TANJUNG PINANG, TARAKAN, TASIKMALAYA, TEBING TINGGI, TEGAL, TERNATE, YOGYAKARTA",
     reserve: [
       "kontak Prodia : 1500 830",
     ],
@@ -5289,7 +5306,7 @@ const Merchants = [
       "Balikpapan - Ruko Haryono Place, Jl. MT Haryono No.21, Gunung Samarinda, Balikpapan Utara, Balikpapan City, East Kalimantan 76114",
       "Ketapang - Jl. R. Suprapto, Sampit, Kec. Delta Pawan, Kabupaten Ketapang, Kalimantan Barat 78851",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, JAKARTA UTARA, BEKASI, YOGYAKARTA, KLATEN, SRAGEN, SOLO, SURAKARTA, PONTIANAK, PEKAN BARU, BANDUNG, MAGELANG, SALATIGA, SEMARANG, SURAKARTA, MALANG, SURABAYA, MOJOKERTO, DENPASAR, BALIKPAPAN, PASURUAN",
     reserve: [
       "Instagram : @nakamuratherapy",
     ],
@@ -5315,7 +5332,7 @@ const Merchants = [
       "<strong>Palembang, Illir Timur 1</strong> - Jl. Jend. Sudirman No.3010b, 20 Ilir D. III, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30129",
       "<strong>Bali, Denpasar</strong> - Jl. Raya Puputan No.190 B, Renon, Denpasar Selatan, Kota Denpasar, Bali 80226",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA BARAT, PALEMBANG, DENPASAR",
     reserve: [
       "Instagram : @glowtechkelapagading, @glowtechjakartabarat, @glowtechbali, @glowtechpalembang",
     ],
@@ -5344,7 +5361,7 @@ const Merchants = [
     ],
     loc: "Jl. Jungleland Boulevard No.1, Kawasan Sentul Nirwana, Bogor 16810",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -5378,7 +5395,7 @@ const Merchants = [
       "<strong>Aryaduta Manado</strong>, Jalan Piere Tendean (Boulevard, No.22, Wenang Utara, Kec. Wenang, Kota Manado, Sulawesi Utara 95111",
       "<strong>Aryaduta Makassar</strong>, Jl. Somba OPU No.297, Losari, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90111",
     ],
-    filteredCity: "",
+    filteredCity: "MAKASSAR, MANADO, PALEMBAMG, MEDAN, DENPASAR, PEKANBARU, BANDUNG, TANGERANG, JAKARTA PUSAT, JAKARTA SELATAN",
     reserve: [
       "<strong>Whatsapp</strong>: +6285959888008",
       "<strong>Email</strong>: reservation@aryaduta.com",
@@ -5400,7 +5417,7 @@ const Merchants = [
     ],
     loc: "RT. 12/ RW. 06, Gn. Princi Jatiarjo, Prigen, Pasuruan, Jawa Timur 67157",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "<strong>Telephone</strong>: (0343) 6743000",
       "<strong>Email</strong>: dosm_tsi2@tamansafari.net",
@@ -5425,7 +5442,7 @@ const Merchants = [
     ],
     loc: "Seluruh venue Timezone",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA TIMUR, JAKARTA UTARA, JAKARTA BARAT, JAKARTA SELATAN, JAKARTA PUSAT, BANDUNG, DEPOK, BEKASI, KARAWANG, CIREBON, CIBUBUR, CIKARANG, TANGSEL, MEDAN, JAMBI, RIAU, LAMPUNG, BATAM, SURABAYA, MALANG, MAGELANG, SOLO, KLATEN, JOGJA, SAMARINDA, PALANGKARAYA, BANJARMASIN, MANADO, MAKASSAR, KENDARI, DENPASAR, MATARAM",
     reserve: [
       "<strong>Instagram</strong> : @timezoneid"
     ],
@@ -5448,7 +5465,7 @@ const Merchants = [
     ],
     loc: "Jl. Golf Estate Bogor Raya, Sukaraja, Kec. Sukaraja, Kabupaten Bogor, Jawa Barat 16710",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "Telephone : 0251 8271555",
       "Whatsapp : 08111167752",
@@ -5486,7 +5503,7 @@ const Merchants = [
       "PrimeBiz Cikarang: Jl. Raya Cikarang Cibarusah No. 18 Pasirsari - Cikarang Selatan, 17530, Indonesia",
       "PrimeBiz Karawang: Blok C Kota Bukit Indah, Karawang 41373, West Java, Indonesia",
     ],
-    filteredCity: "",
+    filteredCity: "CIKARANG, KARAWANG, TEGAL, DENPASAR, LOMBOK",
     reserve: [
       "Prime Plaza Hotel Sanur (WA: +62 811 3977 007, Tel: +62 361 281 781)",
       "Prime Plaza Hotel Purwakarta (WA: +62 819 9935 1888, Tel: +62 264 351 888)",
@@ -5520,7 +5537,7 @@ const Merchants = [
     ],
     loc: "Kompleks Taman Impian Jaya Ancol, Jl. Lodan Raya No.7, Pademangan Timur – Jakarta Utara",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "Phone : (021) 6413428/9",
     ],
@@ -5545,7 +5562,7 @@ const Merchants = [
     ],
     loc: "Jalan Dreded Pahlawan Perumahan Bogor Nirwana Residence,Kota Bogor 16132",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
         "Telp : 0251-8212666 / 0858-8590-2966",
     ],
@@ -5570,7 +5587,7 @@ const Merchants = [
       "Lippo Mall Puri unit LG",
       "Baywalk Mall Lt.7",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT",
     reserve: [
       "<strong>Instagram</strong> : @manekineko_indonesia",
       "<strong>Telephone</strong> : Lippo Mall Puri (08111307200) , Baywalk Mall (08118821303)",
@@ -5595,7 +5612,7 @@ const Merchants = [
     ],
     loc: "Jl. Abdul Wahab Siamin Kav 9-10, Dukuh Pakis – Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "<strong>Phone:</strong> 031 99206633",
       "<strong>Instagram:</strong> @kidzaniasurabaya",
@@ -5617,7 +5634,7 @@ const Merchants = [
     ],
     loc: "Pondok Indah Mall Street Gallery Lantai 2, Kebayoran Lama - Jakarta Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "<strong>Email</strong> : superpark.pim@dreamusgroup.com",
       "<strong>Instagram</strong> : @superpark_indo",
@@ -5639,7 +5656,7 @@ const Merchants = [
     ],
     loc: "Pondok Indah Mall Street Gallery Lantai 2, Kebayoran Lama - Jakarta Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "<strong>Email</strong> : pororopark.pim@dreamusgroup.com",
       "<strong>Instagram</strong> : @pororopark_indo",
@@ -5661,7 +5678,7 @@ const Merchants = [
     ],
     loc: "Desa Banjarsari, Perkebunan Malabar, Pangalengan, Kabupaten Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Instagram</strong> : @Nimohighland",
       "<strong>Phone</strong> : 081111121162",
@@ -5683,7 +5700,7 @@ const Merchants = [
     ],
     loc: "Leban Tawangargo, Kec. Karang Ploso, Kabupaten Malang, Jawa Timur 65152, Indonesia, Jawa Timur, Indonesia",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MALANG",
     reserve: [
       "<strong>Instagram</strong> : @malangskyland",
       "<strong>Phone</strong> : 082130123397",
@@ -5705,7 +5722,7 @@ const Merchants = [
     ],
     loc: "Dusun Salu, Pattontongan, Kec. Mandai, Kabupaten Maros - Sulawesi Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MAKASSAR",
     reserve: [
       "<strong>Instagram</strong> : @Maroshighland",
       "<strong>Phone</strong> : 081120040111",
@@ -5729,7 +5746,7 @@ const Merchants = [
     ],
     loc: "Jl. Citra Raya Utama Timur, Mekar Bakti, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Instagram</strong> : @citrarayawaterworld",
       "<strong>Tiktok</strong> : @citrarayawaterworld",
@@ -5754,7 +5771,7 @@ const Merchants = [
     ],
     loc: "Jl. Bogor Nirwana Residence, RT.07/RW.12, Mulyaharja, Kec. Bogor Sel., Kota Bogor, Jawa Barat 16135",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Instagram</strong> : @rivera.bogor",
     ],
@@ -5775,7 +5792,7 @@ const Merchants = [
     ],
     loc: "Perumahan Jl. Danau Bogor Raya, RT.02/RW.13, Katulampa, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16144",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Phone</strong> : 0812-3100-0222",
       "<strong>Socmed</strong> : @bogoraquagame",
@@ -5799,7 +5816,7 @@ const Merchants = [
     loclist : [
       "Pabuaran Tumpeng Jl. Raya Moh. Toha RT 01 RW 01 Kel.Pabuaran Tumpeng Kec.Karawaci Kota Tangerang",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telepon</strong> : 021- 55784822",
       "<strong>Email</strong> : Newtown.waterpark@gmail.com",
@@ -5824,7 +5841,7 @@ const Merchants = [
     ],
     loc: "Jl Raya Bogor KM 37, Gang Nangka, Curug, Cimanggis - Depok",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DEPOK",
     reserve: [
       "<strong>Instagram</strong> : @greenlakewaterpark",
     ],
@@ -5851,7 +5868,7 @@ const Merchants = [
       "<strong>Cordela Hotel Kartika Dewi</strong>, Jalan Bhayangkara No. 35 Yogyakarta 55261, Indonesia (+62 274 530 4222)",
       "<strong>Cordela Hotel Medan</strong>, Jalan Prof. Mohammad Yamin No. 90 medan, North Sumatra 20234, Indonesia (+62 614515455)",
     ],
-    filteredCity: "",
+    filteredCity: "MEDAN, JOGJA, JAKARTA PUSAT, BANGKA BELITUNG. JAWA BARAT",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -5873,7 +5890,7 @@ const Merchants = [
       "<strong>Grand Cordela Hotel Bandung</strong>, Soekarno - Hatta No. 791 B, Badung West Java 40294, Indonesia (+62 2287883788)",
       "<strong>Grand Cordela Hotel AS Putra Kuningan</strong>, Jalan Siliwangi No. 91 Kuningan, West Java 45511, Indonesia (+62 232 8722 72)",
     ],
-    filteredCity: "",
+    filteredCity: "BANDUNG, KUNINGAN",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -5894,7 +5911,7 @@ const Merchants = [
     loclist : [
       "<strong>Cordela Suites Tasikmalaya</strong> :  Jalan Yudanegara, No. 16 Kec. Cihideung, Kota Tasikmalaya, Jawa Barat 46121 (Telp : +265 3172889)",
     ],
-    filteredCity: "",
+    filteredCity: "TASIKMALAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -5918,7 +5935,7 @@ const Merchants = [
       "<strong>Cordela Inn R. Sukamto - Palembang</strong>, Jalan R. Sukamto, Lorong Masjid, 8 Ilir-Ilir Timur III, Palembang, South Sumatera, 30165 Indonesia (+62 711 303 1550)",
       "<strong>Cordela Inn Sidoarjo</strong>, Jl. KH. Ali Mas'ud Komplek Tiara Town Square Kav. 32 Pagerwojo, Sidoarjo, 61252, Indonesia (+62 31 9971 8888)",
     ],
-    filteredCity: "",
+    filteredCity: "MEDAN, BENGKULU, PALEMBANG, SURABAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -5936,7 +5953,7 @@ const Merchants = [
     ],
     loc: "Blue Karma Djiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081990071888",
       "Email: reservations@bluekarmasecrets.com",
@@ -5959,7 +5976,7 @@ const Merchants = [
     ],
     loc: "Blue Karma Djiwa Seminyak, Badung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081990071888",
       "Email: reservations@bluekarmasecrets.com",
@@ -5982,7 +5999,7 @@ const Merchants = [
     ],
     loc: "Beehouse Djiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081917680460",
       "Email: rsv.beehouse@dijiwasantuaries.com",
@@ -6005,7 +6022,7 @@ const Merchants = [
     ],
     loc: "The Artini Djiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081239009373,",
       "Email: rsv.artini@dijiwasanctuaries.com",
@@ -6028,7 +6045,7 @@ const Merchants = [
     ],
     loc: "Korurua Dijiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 082337978309",
       "Email: rsv.korurua@dijiwasanctuaries.com",
@@ -6051,7 +6068,7 @@ const Merchants = [
     ],
     loc: "Ecozy Diwa Canggu, Badung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp:081358533068",
       "Email: rsv.ecozy@dijiwasanctuaries.com",
@@ -6074,7 +6091,7 @@ const Merchants = [
     ],
     loc: "Puri Saraswati Djiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081246170073",
       "Email: rsv.purisaraswati@dijiwasantuaries.com",
@@ -6097,7 +6114,7 @@ const Merchants = [
     ],
     loc: "Arkamara Djiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081239045667",
       "Email: rsv.arkamara@dijiwasanctuaries.com",
@@ -6121,7 +6138,7 @@ const Merchants = [
     ],
     loc: "Sleman City Hall 2nd floor, Jl. Magelang KM 9.6 No. 18, Triadi Sleman - Yogyakarta",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA",
     reserve: [
       "<strong>Telephone</strong> : 0813 2615 5861",
       "<strong>Email</strong> : info.schiceskatingarena@gmail.com",
@@ -6144,7 +6161,7 @@ const Merchants = [
     ],
     loc: "GAIA Bumi Raya City Mall, Unit CL-G-04, Jl. Arteri Supadio, Kec. Sungai Raya - Pontianak",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PONTIANAK",
     reserve: [
       "<strong>Telephone</strong> : 0877 3169 7631",
       "<strong>Email</strong> : info.gaiaonice@gmail.com",
@@ -6167,7 +6184,7 @@ const Merchants = [
     ],
     loc: "Cambridge City Square Lt.2, Jl.S.Parman No.217, Kec. Petisan Tengah - Medan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MEDAN",
     reserve: [
       "<strong>Telephone</strong> : 0882 9736 1410",
       "<strong>Email</strong> : info.medaniceskatingarena@gmail.com",
@@ -6193,7 +6210,7 @@ const Merchants = [
     loclist : [
       "<strong>Paris Van Java</strong> Lantai SL-08, Jl. Sukajadi No 137 - 139, Cipedes - Sukajadi, Bandung",
     ],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Telephone</strong> : 0813 2112 4028,",
       "<strong>Email</strong> : gardenice.rink@gmail.com",
@@ -6217,7 +6234,7 @@ const Merchants = [
     ],
     loc: "AEON Mall, Jl. Jakarta Garden City Boulevard No.1, RW 6 Kec.Cakung - Jakarta Timur",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA TIMUR",
     reserve: [
       "<strong>Telephone</strong> : (021) 80607526",
       "<strong>Email</strong> : info@oasiscentrearena@gmail.com",
@@ -6241,7 +6258,7 @@ const Merchants = [
     ],
     loc: "Mall Bali Galeria, West Wing 3rd Floor, Jl. Bypass Ngurah Rai, Kuta - Bali",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "<strong>Telephone</strong> : 0811 3977 213,",
       "<strong>Email</strong> : info.baliiceskatingarena@gmail.com",
@@ -6265,7 +6282,7 @@ const Merchants = [
     ],
     loc: "SKA Mall Jl. Soekarno Hatta No. 41, RT 1, Delima Riau, Tampan - Pekanbaru",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PEKANBARU",
     reserve: [
       "<strong>Telephone</strong> : 0813 7809 1796",
       "<strong>Email</strong> : skaiceskatingrink@gmail.com",
@@ -6289,7 +6306,7 @@ const Merchants = [
     ],
     loc: "OPI Mall Lt.3 Jl. Gubernur H A Bastari No.16, Sungai Kedukan, Kec. Rambutan - Palembang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "<strong>Telephone</strong> : (0711) 5624045",
       "<strong>Email</strong> : info.opiiceskatingarena@gmail.com",
@@ -6313,7 +6330,7 @@ const Merchants = [
     ],
     loc: "Tentrem Mall Lt.2 Jl. Gajahmada No.123, Pekunden - Semarang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SEMARANG",
     reserve: [
       "<strong>Telephone</strong> : (024) 86005555",
       "<strong>Email</strong> : info.tentremonice@gmail.com",
@@ -6337,7 +6354,7 @@ const Merchants = [
     ],
     loc: "Maspion Square Lt. 2 Jl. Ahmad Yani No.73 Margorejo, Kec. Wonocolo - Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "<strong>Telephone</strong> : 0821 1695 3423",
       "<strong>Email</strong> : info.msquareiceskatingarena@gmail.com",
@@ -6359,7 +6376,7 @@ const Merchants = [
     ],
     loc: "The Artini Djiwa Ubud, Gianyar",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Telp: 081246191682",
       "Email: rsv@mathiscollection.com",
@@ -6387,7 +6404,7 @@ const Merchants = [
       "Website: <a href='https://www.dijiwasanctuaries.com' target='_blank'>www.dijiwasanctuaries.com</a>",
       "IG: @mathisamed",
     ],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6438,7 +6455,7 @@ const Merchants = [
       "<strong>Swiss-Belhotel Cendrawasih Biak</strong> : Jl. Imam Bonjol No.46, Fandoi, Biak Kota, Kabupaten Biak Numfor, Papua 98111, Tel: (0981) 8125555 | E-mail: biak@swiss-belhotel.com",
       "<strong>Swiss-Belhotel Pangkalpinang</strong> : Jl. Jenderal Sudirman No. 65 Pangkalpinang, Bangka Island 33128",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, JAMBI, LAMPUNG, BATAM, BANTEN, BOGOR, SOLO, DENPASAR, JAWA BARAT, PANGKAL PINANG, SAMARINDA, BALIKPAPAN, BANJARMASIN, MANADO, PALU, KENDARI, AMBON, MANOKWARI, SORONG, JAYAPURA, PAPUA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6484,7 +6501,7 @@ const Merchants = [
       "<strong>Swiss-Belinn Luwuk</strong> : Jl. Kantor DPRD Baru RT 13, Desa/ Kelurahan Mahaas, Kecamatan Luwuk Selatan, Luwuk, Indonesia",
       "<strong>Swiss-Belinn Panakkukang, Makassar</strong> : Jl. Boulevard Raya No. 55, Panakkukang Makassar 90222,South Sulawesi, Indonesia",
     ],
-    filteredCity: "",
+    filteredCity: "MEDAN, PEKANBARU, BATAM, JAKARTA BARAT, BANTEN, CIKARANG, KARAWANG, BOGOR, SOLO, MALANG, SURABAYA, DENPASAR, BALIKPAPAN, LOMBOK, MAKASSAR",
     reserve: [
       "<strong>Swiss-Belinn Medan</strong> : Tel: +62-61 410 77 777, Email: medan-simd@swiss-belhotel.com",
       "<strong>Swiss-Belinn Gajah Mada, Medan</strong> : Tel: (+62-61) 4200 8999,Email: medan-sigm@swiss-belhotel.com",
@@ -6530,7 +6547,7 @@ const Merchants = [
     ],
     loc: "Berlaku di seluruh RedDoorz Indonesia",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA SELATAN, JAKARTA PUSAT, JAKARTA TIMUR, JAKARTA BARAT, YOGYAKARTA, DENPASSAR, MEDAN, SURABAYA, MAKASSAR, PALEMBANG, BATAM, BALIKPAPAN, BANDUNG, SEMARANG, MALANG, BATU, PEKANBARU, BANJARMASIN",
     reserve: [
       "Email : cs@reddoorz.com",
     ],
@@ -6553,7 +6570,7 @@ const Merchants = [
     loclist : [
       "Alfa Resort : Jl. Raya Puncak KM 85, Cisarua –Bogor. Tlp: +622518252285 / 8254660",
     ],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6572,7 +6589,7 @@ const Merchants = [
     ],
     loc: "Jl. Raya Uluwatu, Unggasan, Kec. Kuta Selatan, Badung, Bali 80361",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "<strong>Email</strong> : Booking@lenixsun.com",
       "<strong>Telephone</strong> : 0813 8183 1755",
@@ -6594,7 +6611,7 @@ const Merchants = [
     ],
     loc: "Gili Air Island, West Lombok Regency, 83125",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "LOMBOK",
     reserve: [
       "<strong>Email</strong> : giliairlagoonresort@gmail.com",
       "<strong>Telephone</strong> : 0817 0368 8999",
@@ -6616,7 +6633,7 @@ const Merchants = [
     ],
     loc: "Jl. Pasar Cikreteg KM 3.5, Pancawati Caringin, Bogor Barat, Jawa Barat 16730",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Email</strong> : Reservation.thevillage@gmail.com",
       "<strong>Telephone</strong> : 0812 1397 1627",
@@ -6644,7 +6661,7 @@ const Merchants = [
       "<strong>Swiss-Belresidences Kalibata, Jakarta</strong> : Jl. Kalibata Raya No. 22, South Jakarta, Tel: (62-21) 2977 1771 | E-mail: jakarta-sakj@swiss-belhotel.com",
       "<strong>Swiss-Belresidences Rasuna Epicentrum</strong> : Komplek Rasuna Epicentrum, Jl. Epicentrum Boulevard Timur South Jakarta 12940, Indonesia, Tel: (62-21) 2994 1166 | Fax: (62-21) 2994 1167 | E-mail: jakarta-sare@swiss-belhotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6670,7 +6687,7 @@ const Merchants = [
       "<strong>Swiss-Belcourt Kupang</strong> : Jalan Timor Raya, KM 5, Kelapa Lima, NTT, Kupang , Indonesia, Telepon: +62 380 8441 777 | E-mail: resvscku@swiss-belhotel.com",
       "<strong>Swiss-Belcourt Bogor</strong> : Bukit Cimanggu City, Jl. Sholeh Iskandar No.1, RT.01/RW.13, Cibadak, Kec. Tanah Sereal, Kota",
     ],
-    filteredCity: "",
+    filteredCity: "MAKASSAR, KUPANG, BOGOR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6689,7 +6706,7 @@ const Merchants = [
     ],
     loc: "Jl. Manoko No. 38, Kelurahan Cikahuripan, Kecamatan Lembang - Kabupaten Bandung Barat",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Telephone</strong> : 0811 2339 111",
       "<strong>Instagram</strong> : @bukitcikahuripanresort38 ",
@@ -6711,7 +6728,7 @@ const Merchants = [
     ],
     loc: "Jl. Madiun Kav 115, Kec. Cikarang Selatan, Bekasi",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "CIKARANG",
     reserve: [
       "<strong>Website</strong>: <a href='http://www.waterboomlippocikarang.com' target='_blank'>www.waterboomlippocikarang.com</a>",
       "<strong>Telp</strong>: 087771849455",
@@ -6735,7 +6752,7 @@ const Merchants = [
     ],
     loc: "Grouplay Gandaria City Lt. 2, Kebayoran Lama, Jakarta Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "Instagram : @grouplay.id",
     ],
@@ -6759,7 +6776,7 @@ const Merchants = [
       "Hooray, Lt 3 Aeon Mall Sentul Jl. MH. Thamrin, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810",
       "Hooray, Paris Van Java Lt SL – 22 : Jl. Sukajadi no.131-139, Bandung, Jawa Barat 40162",
     ],
-    filteredCity: "",
+    filteredCity: "BOGOR, BANDUNG",
     reserve: [
       "<strong>Instagram</strong> : @haihooray",
     ],
@@ -6808,7 +6825,7 @@ const Merchants = [
       "Happy Kiddy Poso City Mall Lt.2, Jl.Pulau Sabang No.72 Kayamanya, Poso kota, Kabupaten Poso, Sulawesi Tengah",
       "Happy Kiddy Lippo Plaza Kupang (Lt 1) Lippo Plaza Kupang, Jl. Veteran, Fatululi, Oebobo, Kupang City, East Nusa Tenggara",
     ],
-    filteredCity: "",
+    filteredCity: "BATAM, BENGKULU, MEDAN, MAKASSAR, SURABAYA, MALANG, MANADO, MEDAN, PEKANBARU, BOGOR, KALTENG, BANDUNG, DEPOK, AMBON, KUPANG",
     reserve: [
       "<strong>Instagram</strong> : @happykiddyindonesia",
     ],
@@ -6829,7 +6846,7 @@ const Merchants = [
     ],
     loc: "Grand Metropolitan Mall, Lt. 4, Pekayon Jaya, Bekasi",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BEKASI",
     reserve: [
       "<strong>Telephone</strong>: 0896 043 81399",
       "<strong>Email</strong>: waterplay.id@gmail.com",
@@ -6857,7 +6874,7 @@ const Merchants = [
       "<strong>Cordex Hotel Oase - Pekanbaru</strong>, Jalan KH. Wahid Hasyim No. 225 E-F, Pekanbaru, Riau, 28111, Indonesia (+62 761 346 66)",
       "<strong>Cordex Hotel Marelan</strong>, Jalan Marelan Raya, No. 88 Komplek Maryland District 88 Blok C, No. 88 CI-CM, Tanah Enam Seratus Kota Medan, Sumatera Utara 20243",
     ],
-    filteredCity: "",
+    filteredCity: "MEDAN, JAKARTA UTARA, PEKANBARU",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6878,7 +6895,7 @@ const Merchants = [
     loclist : [
       "<strong>Alam Hotel</strong> : Jl. Ar Hakim No. 169 Medan, Sumatra Utara. Tlp: +61429090021",
     ],
-    filteredCity: "",
+    filteredCity: "MEDAN",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6899,7 +6916,7 @@ const Merchants = [
     ],
     loc: "Jl. Fatmawati No. 154 Lopait, Tuntang, Kab. Semarang, 50733",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SEMARANG",
     reserve: [
       "<strong>Telepon</strong> : (0298) 322266",
       "<strong>Instagram</strong> : @salokapark",
@@ -6925,7 +6942,7 @@ const Merchants = [
     loclist : [
       "Grand Swiss-Belhotel Darmo, Surabaya - Jalan Bintoro No. 21 – 25, Tegalsari, Surabaya , Indonesia, Phone : +62-31 99543399",
     ],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6950,7 +6967,7 @@ const Merchants = [
       "<strong>Swiss-Belexpress Cilegon</strong> : Jalan Sultan Ageng Tirtayasa RT 02/RW 09, Kelurahan Masigit, Kecamatan Jombang, Cilegon, Banten 42414, Tel: +62 (0254) 7819777 | E-mail: cilegon-seci@swiss-belhotel.com",
       "<strong>Swiss-Belexpress Kuta, Bali</strong> : Jl. Raya Legian Gang Tropozone, Lingkungan Pelasa, Kuta, Bali 80361, Tel. (62-361) 4753267 | Mobile (62) 8214500 1597 | E-mail: resvseku@swiss-belhotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "CIKAMPEK, CIPALI",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6974,7 +6991,7 @@ const Merchants = [
     loclist : [
       "<strong>Swiss-Belboutique Yogyakarta</strong> : JL. Jend. Sudirman No. 69, Yogyakarta, Indonesia. Tel: (62-274) 292 1888, E-mail: yogya-sqyo@swiss-belhotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -6993,7 +7010,7 @@ const Merchants = [
     ],
     loc: "One Batam Mall, GF, Jl. Teluk Tering Kec. Batam Kota - Kepulauan Riau",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "RIAU",
     reserve: [
       "<strong>Telephone</strong> : 0813 8187 4846",
       "<strong>Email</strong> : info.oneiceskatingarena@gmail.com",
@@ -7024,7 +7041,7 @@ const Merchants = [
       "<strong>Swiss-Belresort Watu Jimbar, Sanur, Bali</strong> : Jl. Danau Tamblingan No 99 A Sanur 80226, Bali, Indonesia. Tel: (62-361) 849 7000 | Fax: (62-361) 849 7770 | E-mail : resvsrwj@swiss-belhotel.com",
       "<strong>Swiss-Belresort Pecatu, Bali</strong> : Jl. Pecatu Indah Raya Block G2, Pecatu Indah Resort South Kuta 80361, Bali, Indonesia. Tel: (62-361) 3302 999 | Fax: (62-361) 3302 777 |E-mail: resvsrpe@swiss-belhotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "BELITUNG, DENPASAR, BANDUNG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7058,7 +7075,7 @@ const Merchants = [
       "<strong>Hotel 88 Jember</strong> : Jl. Diponegoro No. 43 Jember, Jawa Timur 31114",
       "<strong>Hotel 88 Banjarmasin</strong> : Jl. Lambung Mangkurat No. 19 Banjarmasin, Kalimantan Selatan – 70111",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, JAKARTA BARAT, BEKASI, BANDUNG, SURABAYA, BANJARMASIN",
     reserve: [
       "<strong>Hotel 88 Mangga Besar 120</strong> : Tlp : 081388024255/Email : Infojktmabes120@gmail.com",
       "<strong>Hotel 88 Mangga Besar VIII</strong> : Tlp : 081908889902/Email : hotel88mabes@gmail.com",
@@ -7099,7 +7116,7 @@ const Merchants = [
       "<strong>Hotel Ciputra Semarang</strong>: Jl. Simpang Lima, P.O. BOX 1288, Semarang 50134, Central Java, Indonesia, Tel: (62-24) 844 9888 | Fax: (62-24) 844 7888 | E-mail: hcs@hotelciputra-smg.com",
       "<strong>Hotel Ciputra World</strong>: Jl. Mayjend. Sungkono 87-89 Gunungsari, Dukuh Pakis,Surabaya, East Jawa 60244, Indonesia, Tel: (62-31) 5120 1000 | Fax: (62-31) 5120 1001 | E-mail: infocws@swiss-belhotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, CIBUBUR, SEMARANG, SURABAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7118,7 +7135,7 @@ const Merchants = [
     ],
     loc: "Jl. Ir Sutami No.109, Jebres - Surakarta",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURAKARTA",
     reserve: [
       "<strong>Instagram</strong> : @solosafari.id",
     ],
@@ -7143,7 +7160,7 @@ const Merchants = [
     loclist : [
       "<strong>MĀUA Nusa Penida, Bali</strong> : Jalan Gamat Bay, Nusa Penida Island, Klungkung, Bali 80771 - Indonesia, Tel: +6221 1234 1234 | Fax: +6221 1234 1234 |E-mail: mauanusadua@swiss-belhotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7174,7 +7191,7 @@ const Merchants = [
       "<strong>Zest Yogyakarta</strong> : Jl Gajah Mada No 28, Yogyakarta, Indonesia , Indonesia Tel: +62 (274) 6429119 E-mail: yogya-zhyo@zesthotel.com zesthotel.com",
       "<strong>Zest Legian</strong> : Jl. Werkudara No. 525, Legian, Bali , Indonesia +62 361 9346 200 bali-zhle@zesthotel.com zesthotel.com",
     ],
-    filteredCity: "",
+    filteredCity: "DENPASAR, JOGJA, SURABAYA, SOLO, BANDUNG, BOGOR, TANGERANG, BATAM",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7195,7 +7212,7 @@ const Merchants = [
     ],
     loc: "Jl.Pantai Berawa Canggu Desa Tibubeneng Kuta Utara 80361",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Tlp : 0361 8483939 / 0899 3736 272",
       "Email : info@finnsrecclub.com",
@@ -7220,7 +7237,7 @@ const Merchants = [
     loclist : [
       "<strong>Rumah Kito by WH</strong> : Jl. Mpu Gandring N0.72 Kebun Jeruk, Jambi 36121",
     ],
-    filteredCity: "",
+    filteredCity: "JAMBI",
     reserve: [
       "Telepon : 0811 7483 008",
       "Email : marcomm@rumahkitobywh.com",
@@ -7321,7 +7338,7 @@ const Merchants = [
       "<strong>Ayola Sunrise Mojokerto</strong> : Jl. Benteng Pancasila No.9, Mergelo, Balongsari, Kec. Magersari, Kota Mojokerto, Jawa Timur 61314",
       "<strong>Coffee Hotel Ayola Dolok Sanggul</strong> : Jl. Dolok Sanggul - Siborong - Borong, Pakkat, Kec. Dolok sanggul, Kabupaten Humbang Hasundutan, Sumatera Utara 22457",
     ],
-    filteredCity: "",
+    filteredCity: "PEKANBARU, CIKARANG, PALEMBANG, SURABAYA, MEDAN",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7349,7 +7366,7 @@ const Merchants = [
       "<strong>Lepolonia Hotel & Convention Medan</strong> : Jl. Jenderal Sudirman No.14-18, Madras Hulu, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20152",
       "<strong>Hotel Ramada by Wyndham Meridin Johor Bahru</strong> : 5, Persiaran Medini Utara 3, Bandar Medini Iskandar, 79250 Iskandar Puteri, Johor, Malaysia",
     ],
-    filteredCity: "",
+    filteredCity: "LOMBOK, MALAYSIA, THAILAND, BATAM, MEDAN, BANDUNG, DENPASAR",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7370,7 +7387,7 @@ const Merchants = [
     loclist : [
       "<strong>Lotus Kediri by WH</strong> : Jl. JA Soeprapto No. 26 Kediri, Jawa Timur 64112",
     ],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Telepon : 0857 0260 7999",
       "Email : rsv.lotusgardenbywh@gmail.com",
@@ -7393,7 +7410,7 @@ const Merchants = [
       "Payment dilakukan pada saat checkin di hotel",
       "Berlaku s.d 01 Juni 2025",
     ],
-    loc: "",
+    loc: "JAMBI, MEDAN, JAKARTA PUSAT",
     loclist : [
       "<strong>Odua Thamrin Jakarta</strong> : Jl. Kendal No.14, RT.10/RW.6, RT.10/RW.6, Dukuh Atas, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310",
       "<strong>Odua Weston Jambi</strong> : Jl. Gatot Subroto No.57, Sungai Asam, Kec. Ps. Jambi, Kota Jambi, Jambi 36134",
@@ -7444,7 +7461,7 @@ const Merchants = [
     ],
     loc: "Perumahan Mutiara Gading Timur, Mustika Jaya, Bekasi",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BEKASI",
     reserve: [
       "Telephone : 021 29081234",
       "Instagram : @waterparkcolombus",
@@ -7466,7 +7483,7 @@ const Merchants = [
     ],
     loc: "RT. 12/ RW. 06, Gn. Princi Jatiarjo, Prigen, Pasuruan, Jawa Timur 67157",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Telephone: (0343) 6743000",
       "Email: dosm_tsi2@tamansafari.net",
@@ -7503,7 +7520,7 @@ const Merchants = [
       "<strong>Luminor Hotel Padjadjaran Bogor</strong> : Jl. Cidangiang No.9, Tegalega, Bogor Tengah",
       "<strong>Luminor Hotel Legian Seminyak</strong> : Legian U No.456, Legian, Kuta, Badung, Bali 80361",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, PURWOKERTO, SURABAYA, KALIMANTAN UTARA, JAMBI, PALEMBANG, BANDUNG, BOGOR, DENPASAR",
     reserve: [
       "<strong>Luminor Hotel Pecenongan</strong>: Tlp : 08111355578 / Email : fom.luminorpecenongan@gmail.com",
       "<strong>Luminor Hotel Kota</strong> : Tlp : 021 2268 6888 / Email : fo.luminorkota@gmail.com",
@@ -7586,7 +7603,7 @@ const Merchants = [
     ],
     loc: "Grand Taruma, Kel.Sukamakmur Kec.Telukjambe Timur Karawang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "KARAWANG",
     reserve: [
       "Telp : 0819 5060 300",
       "Email : Tarumaleisure.mkt@gmail.com",
@@ -7608,7 +7625,7 @@ const Merchants = [
     ],
     loc: "Banjarsari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378 ",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "Telephone : +62 81120040445",
       "Instagram : @nimoeye",
@@ -7630,7 +7647,7 @@ const Merchants = [
     ],
     loc: "Bungursari, Kec. Bungursari, Kabupaten Purwakarta, Jawa Barat 41181",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "KABUPATEN PURWAKARTA",
     reserve: [
       "Telephone : +62 81120040447",
       "Instagram : @nimowaterforest",
@@ -7652,7 +7669,7 @@ const Merchants = [
     ],
     loc: "Barutunggul Puncling, Lebakmuncang, Kec. Rancabali, Kabupaten Bandung, Jawa Barat 40973",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "Telephone : +62 81120040446",
       "Instagram : @nimojunglehotspring",
@@ -7675,7 +7692,7 @@ const Merchants = [
     ],
     loc: "Jl.Raya Lintas Samota Labuhan Badas Sumbawa",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "NUSA TENGGARA BARAT",
     reserve: [
       "Telpon : 0877 1828 3888",
       "Email : grandsamotahotel@gmail.com",
@@ -7699,7 +7716,7 @@ const Merchants = [
     ],
     loc: "Lombok Raya Hotel : H.Panca Usaha No.11, Cakranegara – Mataram",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "LOMBOK",
     reserve: [
       "Email : marketing@lombokrayahotel.com",
       "Website : www.lombokrayahotel.com",
@@ -7723,7 +7740,7 @@ const Merchants = [
     loclist : [
       "<strong>Bogor Valley Hotel</strong>: Jl. Sholeh Iskandar No.5, RT.04/RW.11, Kedungbadak, Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16164",
     ],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Email</strong>: fospv.arnavabogor@gmail.com",
       "<strong>Website</strong>: <a href='https://www.bogorvalleyhotel.com' target='_blank'>www.bogorvalleyhotel.com</a>",
@@ -7749,7 +7766,7 @@ const Merchants = [
     ],
     loc: "Jl.Parangtritis KM. 9,5 Gabusan Balong Bantul",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA",
     reserve: [
       "Telp : 0858 4893 0111",
     ],
@@ -7815,7 +7832,7 @@ const Merchants = [
     ],
     loc: "Perumahan Taman Surya V, Blok PP 1, Pegadungan, Kec. Kalideres, Jakarta Barat",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT",
     reserve: [
       "Instagram : @palmbay_waterpark",
     ],
@@ -7847,7 +7864,7 @@ const Merchants = [
       "éL Hotel Malang – Green Hills Residence Jalan Bukit Palem Raya No.1&3, Kendalsari, Ngijo, Kec. Karang Ploso, Kabupaten Malang, Jawa Timur 65152",
       "éL Hotel Banyuwangi - Jl. Raya Jember No.KM.7, Krajan, Dadapan, Kec. Kabat, Kabupaten Banyuwangi, Jawa Timur 68461",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, BANDUNG, YOGYA, SURABAYA, MALANG",
     reserve: [
       "éL Hotel Jakarta : reservation.jkt@el-hotels.com (021-45873355)",
       "éL Hotel Bandung : reservation.bdg@el-hotels.com (081212222024)",
@@ -7877,7 +7894,7 @@ const Merchants = [
       "Swiss-Belexpress Rest Area KM 164, Cipali",
       "Swiss-Belexpress Rest Area KM 166, Cipali",
     ],
-    filteredCity: "",
+    filteredCity: "CIKAMPEK, CIPALI",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7895,7 +7912,7 @@ const Merchants = [
     ],
     loc: "Jl Rajawali kom RVM Blok AA-AH No.014 Palembang Sumatera Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -7942,7 +7959,7 @@ const Merchants = [
     ],
     loc: "Jl.Pantai Berawa Canggu Desa Tibubeneng Kuta Utara 80361",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Tlp : 0361 8483939 / 0899 3736 272",
       "Email : info@finnsrecclub.com",
@@ -7965,7 +7982,7 @@ const Merchants = [
     ],
     loc: "Jl.Pantai Berawa Canggu Desa Tibubeneng Kuta Utara 80361",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Tlp : 0361 8483939 / 0899 3736 272",
       "Email : info@finnsrecclub.com",
@@ -7990,7 +8007,7 @@ const Merchants = [
     ],
     loc: "Jl.Pantai Berawa Canggu Desa Tibubeneng Kuta Utara 80361",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Tlp : 0361 8483939 / 0899 3736 272",
       "Email : info@finnsrecclub.com",
@@ -8040,7 +8057,7 @@ const Merchants = [
     ],
     loc: "Jl.Raya Tajur No.118 B-C Pakuan Bogor Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
         "Telpon : 0251-7546460",
     ],
@@ -8071,7 +8088,7 @@ const Merchants = [
     ],
     loc: "Desa Bantarselang, Cikidang Sukabumi Jawa Barat 43367",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SUKABUMI",
     reserve: [
         "Email : hesti.bravoadventure@gmail.com",
         "Telp : 0857 95666 881",
@@ -8104,7 +8121,7 @@ const Merchants = [
     ],
     loc: "Cijambe, Cikidang, Sukabumi Regency, Jawa Barat 43367",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SUKABUMI",
     reserve: [
       "Email : arusliar.adventures@gmail.com",
       "Telp : 0812 8070 0700 / 021 2270-7917",
@@ -8140,7 +8157,7 @@ const Merchants = [
       "Jl. Kartini No.14, Bojonegoro",
       "Jl. Pemuda No.15, Rembang",
     ],
-    filteredCity: "",
+    filteredCity: "SEMARANG, KENDAL, PURWOKERTO, PATI, SURABAYA, SRAGEN, KUDUS, SOLO, PEKALONGAN, TUBAN, BOJONEGORO, REMBANG",
     reserve: [
       "Sosmed : @superskinme",
       "Pedurungan – Semarang : Tlp : 089531205030, Email : fatmawatisuperskin@gmail.com",
@@ -8176,7 +8193,7 @@ const Merchants = [
     ],
     loc: "Jl Soekarno Hatta (Arengka Atas, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28291",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PEKANBARU",
     reserve: [
       "<strong>Instagram</strong> : @rssansani",
       "<strong>Telephone</strong> : 08116686001",
@@ -8202,7 +8219,7 @@ const Merchants = [
       "Ruko Weston Lane Alam Sutera, Pinang - Tangerang",
       "Ruko Tol Boulevard BSD, Serpong - Tangerang Selatan",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG, TANGERANG SELATAN",
     reserve: [
       "Instagram : @ikigaifamilymassage",
     ],
@@ -8227,7 +8244,7 @@ const Merchants = [
     ],
     loc: "Jl. Lingkar Luar Barat Blok CF, Nomor 5, Cengkareng, Jakarta",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT",
     reserve: [
       "Instagram : @wecare.beautyclinic",
       "Telephone : 021 53362975",
@@ -8251,7 +8268,7 @@ const Merchants = [
     ],
     loc: "JL. Raden Saleh 39, Mangkujawan, Ponorogo - Jawa Timur",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -8271,7 +8288,7 @@ const Merchants = [
     ],
     loc: "Electronic City Building, Jl. Alam Sutera Boulevard No.30 3rd Floor, Pakulonan/Serpong Utara, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Telephone : +62 811 9988 771",
       "Instagram : @wonderm.klinikpermatawong",
@@ -8313,7 +8330,7 @@ const Merchants = [
     ],
     loc: "Jl. Boulevard Graha Raya No.27, Serpong Utara, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Email</strong>: dniskincentregraharaya@gmail.com",
       "<strong>Instagram</strong>: @dermawhite.id",
@@ -8359,7 +8376,7 @@ const Merchants = [
       "Jl. Merbau No, 9 Ilir, Ilir Tim. I, Kota Palembang, Sumatera Selatan 30129",
       "Jalan Prof. M. Yamin No 78A - 78B, Laksamana, Dumai, Kota Dumai, Riau 28821",
     ],
-    filteredCity: "",
+    filteredCity: "YOGYAKARTA, AMBON, TANGERANG, BOGOR, BEKASI, JAKBAR, TANGSEL, MALANG, PALEMBANG, RIAU",
     reserve: [
       "Instagram : @dewaveofficial",
       "Telephone : 0813 9393 9528",
@@ -8380,7 +8397,7 @@ const Merchants = [
     ],
     loc: "Jl. Marina Raya, Rukan Exclusive Blok B, No. 56, Penjaringan, Jakarta Utara",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA",
     reserve: [
       "<strong>Telp</strong>: 02155965828",
       "<strong>Whatsapp</strong>: 0851-5056-8270 / 0812-8701-2165",
@@ -8403,7 +8420,7 @@ const Merchants = [
     ],
     loc: "Ruko Golden Blok D/31, Kel. Pakulonan Barat, Kec. Kelapa Dua, Kab. Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @sheglobeautybar_",
     ],
@@ -8423,7 +8440,7 @@ const Merchants = [
     ],
     loc: "Tokan Waterplace, Jl. Pakuwon Indah Lontar Tim. No.25 Blok C, Babatan Indah, Kec. Wiyung, Surabaya, Jawa Timur 60213",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @royaldiamondclinic",
     ],
@@ -8444,7 +8461,7 @@ const Merchants = [
     ],
     loc: "Jl. Pinang Tengah, Pulubala - Gorontalo",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "GORONTALO",
     reserve: [
       "Email: dentalhouse.gorontalo@gmail.com",
       "Instagram : @dentalhouse_gorontalo",
@@ -8466,7 +8483,7 @@ const Merchants = [
     ],
     loc: "Jln. Terusan Jakarta No. 97, Antapani, Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "Instagram : @beautylogica.bandung",
     ],
@@ -8486,7 +8503,7 @@ const Merchants = [
     ],
     loc: "Jl.WR Supratman No.248 Kel.Kesiman Kertalangu Kec.Denpasar Timur",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "<strong>Telp</strong> : 0817 0322 2719",
       "<strong>Instagram</strong> : Neshnavya",
@@ -8507,7 +8524,7 @@ const Merchants = [
     ],
     loc: "Ruko Mardi Gras Blok KG 01/15, Ciakar, Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @unodental_id",
     ],
@@ -8528,7 +8545,7 @@ const Merchants = [
     ],
     loc: "Ruko Paramount Blok AA3 No. 20, Pakulonan Barat, Kelapa Dua, Kabupaten Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @klinikvenice_gadingserpong",
       "Tiktok : @klinikvenicegs",
@@ -8558,7 +8575,7 @@ const Merchants = [
     ],
     loc: "Harapan Baru Regency No. 7A Blok D1 Kota Baru – Bekasi, Kota Baru, Bekasi Barat",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @muviaskinclinic",
     ],
@@ -8587,7 +8604,7 @@ const Merchants = [
       "<strong>Gaura Skin Clinic Bekasi</strong>, Jakasetia, Ruko RRG Grand Galaxy City blok RGG. 26 Galaxy, Jaka Setia, Kec. Bekasi Sel.",
       "<strong>Gaura Skin Clinic Tebet</strong>, Jakarta Selatan, Jl. Tebet Timur Dalam Raya No.53C, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @gauraskin.id, @gauraskin.jakarta, @gauraskin.bekasi",
     ],
@@ -8612,7 +8629,7 @@ const Merchants = [
       "<strong>HNH Aesthetic Clinic Cinere</strong> - Jln. Cinere Raya No. 6, Cinere, Depok",
       "<strong>HNH Aesthetic Clinic Bogor</strong> - Jln. Raya Dramaga, Ciherang, Dramaga, Bogor",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, DEPOK, BOGOR",
     reserve: [
       "Instagram : @hnhaestheticclinic",
     ],
@@ -8730,7 +8747,7 @@ const Merchants = [
     ],
     loc: "Ruko Mendrisio 3, Blok B/57, Gading Serpong, Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @sdcdental",
       "Whatsapps : 0858 1961 0168",
@@ -8753,7 +8770,7 @@ const Merchants = [
     ],
     loc: "Jln. Green Valley 1-01/ 29 Citragran Cibubur Kota Bekasi, Jawa Barat",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BEKASI",
     reserve: [
       "Instagram : @urdentalcare",
     ],
@@ -8793,7 +8810,7 @@ const Merchants = [
       "Jln. Ciater Raya Blok i6, No. 19 BSD",
       "Jln. Benda Raya No. 8A RT. 5/ RW. 4, Cilandak Timur, Pasar Minggu Jakarta Selatan",
     ],
-    filteredCity: "",
+    filteredCity: "MEDAN, JAKARTA BARAT, JAKARTA SELATAN, TANGERANG",
     reserve: [
       "Instagram : @indonesiaclinicanddental",
     ],
@@ -8820,7 +8837,7 @@ const Merchants = [
       "Jl. Merdeka, Ruko Graha Merdeka, Sumerta Klod, Kec. Denpasar Timur",
       "Jl. Buluh Indah No. 66, Pemecutan Kaja, Kec. Denpasar Utara",
     ],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "Instagram : @dahliasalonbali",
       "Tiktok : @dahliasalon.bali",
@@ -8848,7 +8865,7 @@ const Merchants = [
     ],
     loc: "BSD Ruko Pasar Modern Timur 2 Blok AA/18, Kec. Rawa Mekar Jaya, Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Telephone : 081223000068",
       "Instagram : @neoartdentalcenter",
@@ -8878,7 +8895,7 @@ const Merchants = [
     ],
     loc: "Jl. Ngagel Jaya Utara, No. 94, Kelurahan Ngagel , Kecamatan Wonokromo, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @dermagicalclinic",
       "Whatsapp : +62 822 1115 5611",
@@ -8901,7 +8918,7 @@ const Merchants = [
     ],
     loc: "Raya Menganti No. 411C, Wiyung Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @nawayaclinic",
       "Telephone : 08222 9335 789",
@@ -8927,7 +8944,7 @@ const Merchants = [
       "Jl. M. T. Haryono 655, Semarang Selatan",
       "Jl. Diponegoro No. 96 AB, Manguharjo, Madiun",
     ],
-    filteredCity: "",
+    filteredCity: "SURAKARTA, SEMARANG, MADIUN",
     reserve: [
       "Instagram : @normaaesthetic.clinic , @normaaesthetic.smg, @normaaesthetic_madiun",
       "Whatsapps : Surakarta (<a href='https://api.whatsapp.com/send?phone=6288801022332' target='_blank'>0888 0102 2332</a>), Semarang (<a href='https://api.whatsapp.com/send?phone=6282137823627' target='_blank'>082137823627</a>), Madiun (<a href='https://api.whatsapp.com/send?phone=6282226825495' target='_blank'>082226825495</a>)",
@@ -8951,7 +8968,7 @@ const Merchants = [
       "BSD - Piazza The Mozia E7 No 2, BSD, Tangerang 15331",
       "PIK 2 - Ruko Boston Riverview Blok C No 008, PIK, RW.2, Salembaran, Kec. Kosambi, Kabupaten Tangerang, Banten 15214",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @corepilates.id, @corepilates.tgr",
     ],
@@ -8973,7 +8990,7 @@ const Merchants = [
     ],
     loc: "Jln. Musi Raya No. 15, Sialang / Sako, Palembang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @agadental",
     ],
@@ -8993,7 +9010,7 @@ const Merchants = [
     ],
     loc: "Raya Bronggalan No. 12, Pacar Kembang, Tambaksari, Surabaya",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [
       "Instagram : @salsabeautycentre",
       "Tiktok : salsabeautycentre",
@@ -9014,7 +9031,7 @@ const Merchants = [
     ],
     loc: "Jl. BDN Raya No. 10B, Cilandak Barat, Jakarta Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "Instagram : @cutsandkids",
     ],
@@ -9037,7 +9054,7 @@ const Merchants = [
     ],
     loc: "Jl. Mayor Ruslan No.1333A, Kecamatan Ilir Timur Kelurahan Sekip Jaya, Palembang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Whatsapp : 088210569416",
       "Instagram : @lumin.dental",
@@ -9062,7 +9079,7 @@ const Merchants = [
       "Klinik Gigi Dental Health Care (DHC) Plaju, 9/10 Ulu/ Seberang Ulu I, Palembang",
       "Klinik Gigi Dental Health Care (DHC) Sekip, 20 Ilir D.II/ Kemuning, Palembang",
     ],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Whatsapp : <a href='https://api.whatsapp.com/send?phone=6287897878789' target='_blank'>0878-9787-8789</a> (DHC Sekip) / <a href='https://api.whatsapp.com/send?phone=6287897878788' target='_blank'>0878-9787-8788</a> (DHC Plaju)",
       "Instagram : @dentalhealthcare.plg",
@@ -9094,7 +9111,7 @@ const Merchants = [
       "Jl. Raya Solo-Tawangmangu, No. KM. 8, Karangturi, Triyagan, Jaten",
       "Cempaka Asri 2, Banukan, Malangjiwan, Colomadu, Karanganyar",
     ],
-    filteredCity: "",
+    filteredCity: "SOLO, BOYOLALI, SUKAHARJO, SRAGEN, KARANGANYAR",
     reserve: [
       "Website : brihasatore.com",
       "Whatsapp : 08111447888",
@@ -9117,7 +9134,7 @@ const Merchants = [
     ],
     loc: "Jl. Uranium No. 1, Grogol Utara, Kec. Kebayoran Lama, Jakarta Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "Instagram : @kata.space",
       "Telephone : 0852 1992 0034",
@@ -9138,7 +9155,7 @@ const Merchants = [
     ],
     loc: "Jalan Urip Sumoharjo No. 2, RT /RW 33/13, Kel 2 Ilir, Kec Ilir Timur II, Palembang 30118",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @oris.dentalclinic",
       "Telepon :  087787783883",
@@ -9163,7 +9180,7 @@ const Merchants = [
     ],
     loc: "Jl. Brigjen Hasan Kasim Bukit Sangkal, Kalidoni, Palembang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @zaharadentalcare",
       "Website : www.zaharadental.com",
@@ -9184,7 +9201,7 @@ const Merchants = [
     ],
     loc: "Ruko Aniva Junction Blok B19, Pagedangan, Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @uno.ortho_id",
     ],
@@ -9211,7 +9228,7 @@ const Merchants = [
       "The Icon Business Park Ruko D Blok A/10 Kel/Desa Sampora, Kec. Cisauk Kab. Tangerang",
       "Madison Grande No.J 35, Medang, Kec. Pagedangan Kab. Tangerang",
     ],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Telephone : 081316885817 (BSD) atau 082221156161 (Gading Serpong)",
     ],
@@ -9234,7 +9251,7 @@ const Merchants = [
     ],
     loc: "Ruko Plaza Kautsar No. 034, Blok N-03, Jl. Kelapa Dua Raya, RT. 008/ RW. 014, Kec. Kelapa Dua, Kab. Tangerang, Banten",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Whatsapp : <a href='https://api.whatsapp.com/send?phone=6285694475330' target='_blank'>085694475330</a>",
       "Instagram : @poppydentalcare",
@@ -9255,7 +9272,7 @@ const Merchants = [
     ],
     loc: "Summer Waxing Cabana, Supermal Karawaci Lantai FF, No. 50, Curug Sangereng, Kabupaten Tangerang",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Telephone</strong>: 0215466437 / 081298839950",
       "<strong>Instagram</strong>: @summerwaxing",
@@ -9277,7 +9294,7 @@ const Merchants = [
     ],
     loc: "Ruko Citypark B No.58, RT.7/RW.14, Cengkareng Tim., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT",
     reserve: [
       "Instagram : @tanuki.ind",
     ],
@@ -9297,7 +9314,7 @@ const Merchants = [
     ],
     loc: "Ruko YC Hub. Blok A, No. 10, BSD City",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @cuts.andbeyond",
     ],
@@ -9324,7 +9341,7 @@ const Merchants = [
     loclist : [
       "<div class='mb-3'><p><strong>JAKARTA</strong></p><div>Grand Indonesia – sky Bridge, 2nd Floor #06</div><div>Kota Kasablanka – 1st Floor #122</div><div>Senayan City – 3rd Floor #84A</div><div>Plaza Senayan – 3rd Floor #321B</div><div>Mall of Indonesia – Ground Floor #D24B</div><div>Lippo St. Moritz – Ground Floor #87</div></div><div class='mb-3'><p><strong>TANGERANG</strong></p><div>Supermall Karawaci – Ground Floor #19B</div></div><div class='mb-3'><p><strong>KARAWANG</strong></p><div>Summarecon Villaggio Outlets – Gate Pisa #I-100</div><div>Summarecon Villaggio Outlets – Gate Pisa #I-100</div></div><div class='mb-3'><p><strong>CIKARANG</strong></p><div>AEON Mall Deltamas – Ground Floor #025</div></div><div class='mb-3'><p><strong>BANDUNG</strong></p><div>Trans Studio Mall – 1st Floor #B158-B160</div></div><div class='mb-3'><p><strong>SEMARANG</strong></p><div>Pollux Mall Paragon – 2nd Floor #23</div><div>Mall Ciputra Semarang – Ground Floor #54</div></div><div class='mb-3'><p><strong>YOGYAKARTA</strong></p><div>Pakuwon Mall Jogja – Upper Ground #12</div></div><div class='mb-3'><p><strong>SURABAYA</strong></p><div>Pakuwon Mall Surabaya – Ground Floor #80B</div></div><div class='mb-3'><p><strong>MALANG</strong></p><div>Mall Olympic Garden – Ground Floor #32</div></div><div class='mb-3'><p><strong>BALI</strong></p><div>Mall Bali Galeria – 1st Floor #1C-7B</div><div>Living World Denpasar – Ground Floor #G-IC-15</div><div>Discovery Mall – Ground Floor #B-21B</div></div><div class='mb-3'><p><strong>MAKASSAR</strong></p><div>Trans Studio Mall – Lower Ground #116</div></div>",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA PUSAT, JAKARTA SELATAN, JAKARTA UTARA, JAKARTA BARAT, SEMARANG, SURABAYA, DENPASAR, JAKARTA, TANGERANG, MALANG, YOGYAKARTA, BANDUNG, KARAWANG, MAKASSAR, BEKASI",
     reserve: [
       "Instagram : @kedsindonesia",
     ],
@@ -9349,7 +9366,7 @@ const Merchants = [
     ],
     loc: "Elizabeth Mobile App dan <a href='https://www.elizabeth.co.id' target='_blank'>www.elizabeth.co.id</a>",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG, BALIKPAPAN, BANJARMASIN, BLITAR, JAKARTA SELATAN, BOGOR, JAKARTA UTARA, BEKASI, DEPOK, TANGERANG, CILEGON, CIREBON, JAKARTA BARAT,JAKARTA PUSAT, DENPASAR, KEDIRI, KUDUS, KUPANG, BANDAR LAMPUNG, MATARAM, MADIUN, MAGELANG, SERANG, MALANG, MANADO, MEDAN, MOJOKERTO, MAKASSAR, PADANG, PALANGKARAYA, PALEMBANG, PASURUAN, PEKALONGAN, PEKANBARU, PONTIANAK, PROBOLINGGO, SAMARINDA, SEMARANG, SURAKARTA, TASIKMALAYA, TEGAL, JAMBI, YOGYAKARTA",
     reserve: [
       "<strong>Email</strong>: customer_service@elizabethbag.com",
       "<strong>Website</strong>: <a href='https://www.elizabeth.co.id' target='_blank'>www.elizabeth.co.id</a>",
@@ -9372,7 +9389,7 @@ const Merchants = [
     ],
     loc: "Berlaku di seluruh store Nobby",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA TIMUR, JAKARTA BARAT, JAKAFTA SELATAN, SOLO, PEKALONGAN, MANADO, CIREBON, SOLO, CIBINONG, BEKASI, LAMPUNG, DURI, BANJARBARU, CINERE, TEGAL, LOMBOK , JAYAPURA, SAMARINDA, YOGYAKARTA, PEKANBARU, GORONTALO, MAKASSAR, KEDIRI, KARAWANG, BEKASI, SALATIGA, SINTANG, MUARA BUNGO, CILEGON, DEPOK, SAMARINDA, MALANG, BALIKPAPAN, GRESIK, BATANG, MAGELANG, MAMUJU, KEDIRI, MADIUN, ACEH, BANYUWANGI, PALANGKARAYA, SAMPIT, BOGOR, LUBUK LINGGAU, TERNATE, JEMBER, GARUT, MOJOKERTO, DUMAI, DEPOK, KEDIRI, MADIUN, ACEH, BANYUWANGI, PALANGKARAYA, SAMPIT, BOGOR, LUBUK LINGGAU, TERNATE, JEMBER, GARUT, MOJOKERTO, DUMAI, DEPOK, MALUKU, KEBUMEN, SUBANG, CIKARANG, TASIKMALAYA, PEKANBARU, KETAPANG, GOWA, BUMIAYU, SURABAYA, PALU, BEKASI, BANDUNG, SUKABUMI, PONOROGOM PAREPARE",
     reserve: [
       "<strong>Website</strong> : <a href='https://nobby.co.id' target='_blank'>https://nobby.co.id</a>",
       "<strong>Socmed</strong> : @nobby.co.id",
@@ -9400,7 +9417,7 @@ const Merchants = [
     ],
     loc: "Berlaku di seluruh store Giordano",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "MEDAN, JAKUT, MAKASAR, JAKSEL, JAKBAR, SURABAYA, MANADO, PEKANBARU, DENPASAR, BANDUNG, YOGYAKARTA, BEKASI, BOGOR, PONTIANAK, SEMARANG, PALEMBANG, TANGERANG, DEPOK, JAMBI, JAKPUS, PADANG, CIREBON, MALANG, MANADO, BANJARMASIN, LAMPUNG, MEDAN, PEKANBARU, SOLO, LOMBOK, SAMARINDA, SOLO, BALIKPAPAN",
     reserve: [
       "<strong>Telp</strong>: 021 458 47337",
     ],
@@ -9451,7 +9468,7 @@ const Merchants = [
       "Aeon Mall Detarmas, Jl. Ganesha Boulevard, Kota Deltamas, Kabupaten Bekasi, Jawa Barat",
       "Plaza Renon Bali, Jl. Raya Puputan No. 210, Renon, Kec. Denpassar Tim, Kota Denpassar, Bali",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, TANGERANG, TANGERANG SELATAN, JAKARTA SELATAN, JAKARTA BARAT, JAKARTA PUSAT, DEPOK, BOGOR, SURABAYA, YOGYAKARTA , SEMARANG, BATAM, PALEMBANG, SURABAYA, BEKASI",
     reserve: [
       "Instagram : @newminoshe.id",
     ],
@@ -9484,7 +9501,7 @@ const Merchants = [
       "<strong>Pakuwon Mall</strong>, Jl. Mayjend Jonosewojo, Kota Surabaya",
       "<strong>Royal Plaza</strong>, Jl. Ahmad Yani, No. 16-18 L, Kota Surabaya",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT, MEDAN, MAKASSAR, SURABAYA",
     reserve: [
       "<strong>Instagram</strong> : @luxcrime_id",
       "<strong>Telephone</strong> : 0859 4519 3779",
@@ -9517,7 +9534,7 @@ const Merchants = [
       "<strong>Palembang Icon</strong>, Ground Floor, Jl. POM IX, Lorok Pakjo, Ilir Bar. I, Kota Palembang, Sumatera Selatan 30137.",
       "<strong>Level 21</strong>, UG Floor, Jalan Teuku Umar, Dauh Puri Klod, Kecamatan Denpasar Barat, Kota Denpasar, Bali 80114.",
     ],
-    filteredCity: "",
+    filteredCity: "BEKASI, TANGERANG, BANDUNG, SEMARANG, SURABAYA, MALANG, PALEMBANG, DENPASAR",
     reserve: [
       "<strong>Instagram</strong>: @goldmartjewelry ",
     ],
@@ -9582,7 +9599,7 @@ const Merchants = [
       "<strong>Mall Ciputra Seraya</strong>, Lt. 1 Unit C05 & C06",
       "<strong>Manado Town Square</strong>, Lt. 1 FF-A",
     ],
-    filteredCity: "",
+    filteredCity: "BANDUNG, SURABAYA, SEMARANG, TANGSEL, JAKARTA, BEKASI, BOGOR, DEPOK, PALEMBANG, RIAU",
     reserve: [
       "<strong>IG</strong> : @dparis_silver ",
     ],
@@ -9605,7 +9622,7 @@ const Merchants = [
     ],
     loc: "Kota Kasablanka Mall, Lt. 2 Samping ATM BCA, Jl. Casablanca Kav. 88, Menteng Dalam, Tebet, Jakarta Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN",
     reserve: [
       "Email : contact.kcmtku@gmail.com",
       "Instagram : @soon.eyewear",
@@ -9637,7 +9654,7 @@ const Merchants = [
       "<strong>Tunjungan Plaza 3 Surabaya</strong> : Lt.1,  Jl. Basuki Rahmat No.8 - 12, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261",
       "<strong>Ashta</strong> : Lt.  Ground Floor, Jl. Senopati No.83, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA UTARA, JAKARTA PUSAT, SURABAYA",
     reserve: [
       "<strong>Instagram</strong> : @carlandclaire",
       "<strong>Telephone</strong> : 08119888767",
@@ -9671,7 +9688,7 @@ const Merchants = [
       "Cibinong City Mall (CCM), Lantai LG (Samping Roti O), Jl. Tegar Beriman No. 1, Lt. LG No. 51-52, Pekansari, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16914",
       "Trans Studio Mall Makassar, Lantai LG (Depan Guardian), Jl. Metro Tj. Bunga, Kel. Maccini Sombala, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90224",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, SURABAYA, TANGERANG, SURABAYA, BANDUNG, MAKASSAR",
     reserve: [
       "Instagram : @kcmtku",
     ],
@@ -9691,7 +9708,7 @@ const Merchants = [
     ],
     loc: "Jl. R. H. Moh Tohir No. 1, Kelurahan Tanah Baru, Bogor",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BOGOR",
     reserve: [
       "<strong>Telephone</strong>: 0899 1111 668",
       "<strong>Email</strong>: admin@thebucketlist.id",
@@ -9737,7 +9754,7 @@ const Merchants = [
       "Stop'N'Go Tunjungan Plaza- Reparasi Sepatu & Tas, Tunjungan Plaza 3, Lt. LG, Surabaya, Kedungdoro, Kec. Tegalsari, Kota SBY, Jawa Timur",
       "Stop'N'Go Mall Olympic Garden Malang, Jalan Kawi Nomor 24 Mall Olympic Garden LantaiSF 38,Kauman, Klojen, Kauman, Kec. Klojen, Kota Malang, Jawa Timur",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA SELATAN, JAKARTA PUSAT, JAKARTA BARAT, JAKARTA UTARA, TANGERANG, SURABAYA, MALANG",
     reserve: [
       "<strong>Instagram</strong> : @stopngo.id",
       "<strong>Phone</strong> : 081284110533",
@@ -9759,7 +9776,7 @@ const Merchants = [
     ],
     loc: "Jl. Tanjung Kelayang, Keciput, Sijuk/Belitung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PANGKALPINANG",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -9783,7 +9800,7 @@ const Merchants = [
       "Ruko Cordoba Green Lake City - Cipondoh",
       "Mall Pacific Place, Lantai 3 - Kebayoran Baru",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA UTARA, JAKARTA BARAT, CIPONDOH, JAKARTA SELATAN",
     reserve: [
       "Kelapa Gading : 087883743344",
       "Kembangan : 082246767583",
@@ -9808,10 +9825,34 @@ const Merchants = [
     ],
     loc: "JL IR H Djuanda No 14, Bandung Wetan - Bandung",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "BANDUNG",
     reserve: [
       "<strong>Socmed</strong> : @hijabstoryindonesia.Id",
       "<strong>Email</strong> : yanna.hijabstory@gmail.com",
+    ],
+    additional: [],
+    additionalnew: []
+  },
+  {
+    merchantId: 635,
+    category: "fashion",
+    name: "AKAR",
+    image: "LhuaKnJxnPJFotG98AmF.jpeg",
+    tnc: [
+      "<strong>Diskon 10%</strong> untuk semua produk (Non Promo), tanpa minimum pembelian",
+      "Harus menunjukkan kartu anggota fisik atau kartu anggota digital untuk keanggotaan A-Member",
+      "Tidak dapat digabungkan dengan promosi lainnya",
+      "Berlaku s.d 30 April 2025",
+    ],
+    loc: "",
+    loclist : [
+      "Royal Plaza Surabaya lt G A2-12, Wonokromo - Surabaya",
+      "Tunjungan Plaza 1 lt 2, Tegalsari - Surabaya",
+      "Pakuwon City Mall annex lt 1, Mulyorejo - Surabaya",
+    ],
+    filteredCity: "SURABAYA",
+    reserve: [
+      "<strong>Instagram</strong> : @akar_sby",
     ],
     additional: [],
     additionalnew: []
@@ -9829,7 +9870,7 @@ const Merchants = [
     ],
     loc: "Fresh Market, Emerald Bintaro Blok RB No. 27, Kel. Pondok Pucung, Kel. Pondok Aren – Tangerang Selatan",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "<strong>Instagram</strong> : @houseofinang",
       "<strong>Email</strong> : houseofinang@gmail.com",
@@ -9877,7 +9918,7 @@ const Merchants = [
     ],
     loc: "",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "DENPASAR",
     reserve: [
       "<strong>Website<strong> : <a href='https://www.gripp.co.id' target='_blank'>www.gripp.co.id</a>",
       "<strong>Instagram</strong> : @gripp.co.id",
@@ -9921,7 +9962,7 @@ const Merchants = [
       "Harus menunjukkan kartu member fisik atau kartu member digital keanggotaan A-Member",
       "Berlaku s.d 20 Januari 2025",
     ],
-    loc: "",
+    loc: "JAKARTA BARAT, JAKARTA PUSAT, TANGERANG SELATAN",
     loclist : [
       "Lippo Mall Puri - UG Floor",
       "Grand Indonesia - Skybridge Lvl 3",
@@ -9961,7 +10002,7 @@ const Merchants = [
       "Bintaro Jaya Xchange Level GF, Jl. Lkr. Jaya No.314, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15224, Indonesia",
       "Living World Alam Sutera Level UG, Jl. Alam Sutera Boulevard No. Kav.21, Pakulonan, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15325",
     ],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT JAKARTA SELATAN, JAKARTA PUSAT, JAKARTA UTARA, DEPOK, TANGERANG SELATAN",
     reserve: [
       "<strong>Instagram</strong> : @kemayuandco",
     ],
@@ -9982,7 +10023,7 @@ const Merchants = [
     ],
     loc: "Land's End PIK 2, Jl. Yos Sudarso, Pasir Putih, Kabupaten Tangerang, Banten",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "TANGERANG",
     reserve: [
       "Instagram : @lumiere.acc",
     ],
@@ -10001,7 +10042,7 @@ const Merchants = [
     ],
     loc: "Lippo Mall Puri - UG Floor",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "JAKARTA BARAT",
     reserve: [
       "Instagram : @Foriva.jewelry",
       "Phone : 0812-9090-2995 / 0899-9988-797",
@@ -10027,7 +10068,7 @@ const Merchants = [
       "Tunjungan Plaza 3, Jl. Basuki Rahmat No.8-12 4th floor K 4-09, Surabaya, Jawa Timur 60261",
       "Trans Studio Mall, Jl. Imam Bonjol No.440a, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80361",
     ],
-    filteredCity: "",
+    filteredCity: "SURABAYA, DENPASAR, JAKARTA BARAT",
     reserve: [
       "<strong>Telephone</strong>: 081278780078",
       "<strong>Email</strong>: admin@nineworlds.jewelry",
@@ -10050,7 +10091,7 @@ const Merchants = [
     ],
     loc: "Jl. Bangau No. 170a, 9 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan, 30114",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Whatsapp : <a href='https://api.whatsapp.com/send?phone=6281297578098' target='_blank'>+62 812 9757 8098</a>",
     ],
@@ -10071,7 +10112,7 @@ const Merchants = [
     ],
     loc: "Ngagel Jaya Selatan St No.129 - 131, Baratajaya, Gubeng, Surabaya, Jawa Timur 60245",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "SURABAYA",
     reserve: [],
     additional: [],
     additionalnew: []
@@ -10089,7 +10130,7 @@ const Merchants = [
     ],
     loc: "Jl. Bambang Utoyo No. 128E, Kel. 5 llir, Kec. llir Timur ll, Palembang, Sumatera Selatan, 30115",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @chroniclesphotostudio",
     ],
@@ -10109,7 +10150,7 @@ const Merchants = [
     ],
     loc: "Jl. Mayor Salim Batubara, 20 Ilir D. I, Kec. Illir Tim. I, Kota Palembang, Sumatera Selatan 30114",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @yumoto_studio",
     ],
@@ -10129,7 +10170,7 @@ const Merchants = [
     ],
     loc: "Jl. Mayor Salim Batubara",
     loclist : [],
-    filteredCity: "",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @handycrafty.id",
     ],
@@ -10149,7 +10190,7 @@ const Merchants = [
     ],
     loc: "Jl. Bangau No. 170a, 9 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114",
     loclist : [],
-    filteredCity: "TUAL",
+    filteredCity: "PALEMBANG",
     reserve: [
       "Instagram : @tuftncraft.plg",
     ],

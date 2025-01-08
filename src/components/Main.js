@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Col, Container, Row, Modal, Button } from 'react-bootstrap';
+import { Col, Container, Row, Modal, Button, Form } from 'react-bootstrap';
 import Merchants from '../merchantData';
 import Citys from '../cityData';
 import Carousel from '../carouselData';
@@ -13,7 +13,6 @@ const Main = () => {
     const totalData = Merchants.filter(data =>
       data.category === 'penginapan'
     );
-    console.log(totalData.length);
     setCountTotalMerchant(totalData.length);
   }
   useEffect(() => {
@@ -270,7 +269,7 @@ const Main = () => {
                   </div>
                   <div id='filterLocResult' className='d-none my-2'>
                     <div className='d-flex'>
-                      <div onClick={handleReset} className='d-flex align-items-center justify-content-center me-1' style={{ color: "#D00B0B", fontSize: "12px", border: "solid 1px #D00B0B", borderRadius: "8px", width: "32px" }}>
+                      <div onClick={handleReset} className='d-flex align-items-center justify-content-center me-2' style={{ color: "#D00B0B", fontSize: "12px", border: "solid 1px #D00B0B", borderRadius: "8px", width: "32px" }}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-x-lg" viewBox="0 0 16 16">
                           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
                         </svg>
@@ -377,8 +376,8 @@ const Main = () => {
                 <img src='https://static-content.alfagift.id/static/alfagift-app/no_search_result.png' alt='' className='img-fluid mb-3' />
               </Col>
               <Col xs={10} className='text-center'>
-                <p className='text-center'>Tidak ditemukan penginapan di "<strong style={{ textTransform: "uppercase" }}>{selectedLocation}</strong>"</p>
-                <span onClick={() => { filterShow(); onClear(); }} style={{ fontSize: "14px", fontWeight: "bold", color: "#005DA6" }}>Ubah Lokasi</span>
+                <p className='text-center'>Tidak ditemukan penginapan di "<strong>{selectedLocation}</strong>"</p>
+                <Button variant='btn btn-primary fw7' onClick={() => { filterShow(); onClear(); }}>Ubah Lokasi</Button>
               </Col>
             </Row>
           </div>
@@ -460,12 +459,20 @@ const Main = () => {
             {searchTerm !== '' ? 
               <div>
                 {filteredLocations.map((city, name) => (
-                  <div className='city-list-item' key={name} onClick={() => handleFilteredByLocation(city.name)}>{city.name}</div>
+                  // <div key={city.id} className='city-list-item'>
+                  //   <label htmlFor={'radio-label-' + city.id} className='w-100' onClick={() => handleFilteredByLocation(city.name)}>{city.name}</label>
+                  //   <input type='radio' name='cityGroup' id={'radio-label-' + city.id} />
+                  // </div>
+                  <div className='city-list-item' key={city.id} onClick={() => handleFilteredByLocation(city.name)}>{city.name}</div>
                 ))}
               </div> : 
               <div>
                 {Citys.map((city, name) => (
-                  <div className='city-list-item' key={name} onClick={() => handleFilteredByLocation(city.name)}>{city.name}</div>
+                  // <div key={city.id} className='city-list-item'>
+                  //   <label htmlFor={'radio-label-' + city.id} className='w-100' onClick={() => handleFilteredByLocation(city.name)}>{city.name}</label>
+                  //   <input type='radio' name='cityGroup' id={'radio-label-' + city.id} />
+                  // </div>
+                  <div className='city-list-item' key={city.id} onClick={() => handleFilteredByLocation(city.name)}>{city.name}</div>
                 ))}
               </div>}
           </div>

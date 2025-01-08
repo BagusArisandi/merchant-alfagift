@@ -14,18 +14,18 @@ body {
   background-color: #F9F9F9 !important;
 }
 
-.text-xs {font-size: 10px;}
-.text-sm {font-size: 12px;}
-.text-md {font-size: 14px;}
-.text-lg {font-size: 16px;}
-.text-xl {font-size: 18px;}
-.text-xlg {font-size: 20px;}
+.text-xs {font-size: 10px !important;}
+.text-sm {font-size: 12px !important;}
+.text-md {font-size: 14px !important;}
+.text-lg {font-size: 16px !important;}
+.text-xl {font-size: 18px !important;}
+.text-xlg {font-size: 20px !important;}
 
-.fw3 {font-weight: 300;}
-.fw4 {font-weight: 400;}
-.fw5 {font-weight: 500;}
-.fw7 {font-weight: 700;}
-.fw9 {font-weight: 900;}
+.fw3 {font-weight: 300 !important;}
+.fw4 {font-weight: 400 !important;}
+.fw5 {font-weight: 500 !important;}
+.fw7 {font-weight: 700 !important;}
+.fw9 {font-weight: 900 !important;}
 
 .text-gray {color: #999999 !important;}
 
@@ -131,7 +131,6 @@ body {
 .merchant-result .empty-state {
   position: absolute;
   top: 56px;
-  font-size: 12px;
   z-index: 3;
 }
 .merc-card {
@@ -205,6 +204,8 @@ body {
   padding: 0 16px;
 }
 .city-list .city-list-item {
+  display: flex;
+  align-items: center;
   padding: 16px 0;
   border-bottom: solid 1px #E8E8E8;
 }

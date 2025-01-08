@@ -212,6 +212,31 @@ body {
 .city-list .city-list-item:last-child {
   border-bottom: 0;
 }
+.city-list .city-list-item .radio-mark {
+  width: 20px;
+  height: 20px;
+  border: solid 1px #D8D8D8;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+}
+.city-list .city-list-item .radio-mark::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.city-list .city-list-item.selected .radio-mark {
+  border-color: #005DA6;
+}
+.city-list .city-list-item.selected .radio-mark::before {
+  background-color: #005DA6;
+}
 
 .shimmer-component .items {
   background: linear-gradient(to right, #eee 40%, #fafafa 50%, #eee 60%);

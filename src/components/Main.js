@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Col, Container, Row, Modal, Button, Form } from 'react-bootstrap';
+import React, { useState, useEffect, useRef } from 'react';
+import { Col, Container, Row, Modal, Button } from 'react-bootstrap';
 import Merchants from '../merchantData';
 import Citys from '../cityData';
 import Carousel from '../carouselData';
@@ -83,6 +83,8 @@ const Main = () => {
     const getLocation = location;
     setSelectedLocation(getLocation);
     setCountSelectedLocation(filtered.length);
+
+    console.log(location);
     
     if (filtered.length > 0) {
       setFilteredData(filtered);
@@ -111,7 +113,7 @@ const Main = () => {
     
     setFilteredLocations(filtered);
   };
-  
+
   const handleReset = () => {
     setFilteredData(Merchants);
     filterClose();
@@ -119,6 +121,7 @@ const Main = () => {
     document.getElementById('counterData').classList.remove('d-none');
     document.getElementById('filterLocResult').classList.add('d-none');
     document.getElementById('btnFilter').classList.remove('d-none');
+    setSelectedLocation([]);
   }
 
   useEffect(() => {
@@ -459,20 +462,18 @@ const Main = () => {
             {searchTerm !== '' ? 
               <div>
                 {filteredLocations.map((city, name) => (
-                  // <div key={city.id} className='city-list-item'>
-                  //   <label htmlFor={'radio-label-' + city.id} className='w-100' onClick={() => handleFilteredByLocation(city.name)}>{city.name}</label>
-                  //   <input type='radio' name='cityGroup' id={'radio-label-' + city.id} />
-                  // </div>
-                  <div className='city-list-item' key={city.id} onClick={() => handleFilteredByLocation(city.name)}>{city.name}</div>
+                  <div className={'d-flex align-item-center justify-content-between city-list-item ' + (city.name === selectedLocation ? 'selected' : '')} key={city.id} onClick={() => handleFilteredByLocation(city.name)}>
+                    <span className='fw5'>{city.name}</span>
+                    <div className='radio-mark'></div>
+                  </div>
                 ))}
               </div> : 
               <div>
                 {Citys.map((city, name) => (
-                  // <div key={city.id} className='city-list-item'>
-                  //   <label htmlFor={'radio-label-' + city.id} className='w-100' onClick={() => handleFilteredByLocation(city.name)}>{city.name}</label>
-                  //   <input type='radio' name='cityGroup' id={'radio-label-' + city.id} />
-                  // </div>
-                  <div className='city-list-item' key={city.id} onClick={() => handleFilteredByLocation(city.name)}>{city.name}</div>
+                  <div className={'d-flex align-item-center justify-content-between city-list-item ' + (city.name === selectedLocation ? 'selected' : '')} key={city.id} onClick={() => handleFilteredByLocation(city.name)}>
+                    <span className='fw5'>{city.name}</span>
+                    <div className='radio-mark'></div>
+                  </div>
                 ))}
               </div>}
           </div>

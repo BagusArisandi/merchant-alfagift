@@ -178,7 +178,7 @@ const Main = () => {
                 {Carousel.map((list) => (
                   <div key={list.id}>
                     { list.type === 'page' ? 
-                      <a href={list.direct_url} target='_blank' className='text-decoration-none'>
+                      <a href={list.direct_url} target='_blank' rel="noreferrer" className='text-decoration-none'>
                         <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
                       </a> : 
                       list.type === 'modal' ? 

@@ -212,12 +212,16 @@ body {
   border-bottom: 0;
 }
 
-.slick-slider .slick-arrow {
-  display: none !important;
+.shimmer-component .items {
+  background: linear-gradient(to right, #eee 40%, #fafafa 50%, #eee 60%);
+  background-size: 300%;
+  background-position-x: 100%;
+  animation: shimmer 1s infinite linear;
 }
-.slick-slider .slick-dots li {
-  margin-left: 0;
-  margin-right: 0;
+@keyframes shimmer {
+  to {
+     background-position-x: 0%
+  }
 }
 
 @media (max-width: 767px) {
@@ -239,7 +243,7 @@ body {
     height: 95%;
   }
   .bottomsheet-half .modal-dialog .modal-content {
-    height: 60%;
+    height: 80%;
   }
   .bottomsheet-halffull .modal-dialog .modal-content .modal-body, .bottomsheet-half .modal-dialog .modal-content .modal-body, .fullscreen .modal-dialog .modal-content .modal-body {
     margin-bottom: 71px;
@@ -268,9 +272,9 @@ body {
   .modal .modal-dialog .modal-content .fixed-head-sheet {
     font-size: 16px;
     font-weight: 600;
-    padding: 26px 16px 4px 16px;
+    padding: 16px 16px 4px 16px;
   }
-  .modal .modal-dialog .modal-content .fixed-head-sheet::before {
+  /* .modal .modal-dialog .modal-content .fixed-head-sheet::before {
     content: '';
     width: 60px;
     height: 4px;
@@ -280,7 +284,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: 10px;
-  }
+  } */
   .modal .modal-dialog .modal-content .fixed-head-sheet .button-dec {
     font-size: 14px;
     font-weight: 600;

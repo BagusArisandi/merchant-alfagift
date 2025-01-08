@@ -269,11 +269,18 @@ const Main = () => {
                     </svg>
                   </div>
                   <div id='filterLocResult' className='d-none my-2'>
-                    <div onClick={() => { filterShow(); onClear(); }} className='d-flex align-items-center mb-2' style={{ color: "#005DA6", backgroundColor: "#F8FBFF", border: "solid 1px #005DA6", padding: "6px 8px", fontSize: "12px", borderRadius: "8px", width: "fit-content" }}>
-                      <span className='me-1'>{selectedLocation}</span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-                      </svg>
+                    <div className='d-flex'>
+                      <div onClick={handleReset} className='d-flex align-items-center justify-content-center me-1' style={{ color: "#D00B0B", fontSize: "12px", border: "solid 1px #D00B0B", borderRadius: "8px", width: "32px" }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                      </div>
+                      <div onClick={() => { filterShow(); onClear(); }} className='d-flex align-items-center' style={{ color: "#005DA6", backgroundColor: "#F8FBFF", border: "solid 1px #005DA6", padding: "6px 8px", fontSize: "12px", borderRadius: "8px", width: "fit-content" }}>
+                        <span className='me-1'>{selectedLocation}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                      </div>
                     </div>
                     <div className='d-flex align-items-center justify-content-between mt-3'>
                       <div className='fw7' style={{ color: "#666666" }}>{countSelectedLocation} Merchant</div>
@@ -428,9 +435,9 @@ const Main = () => {
         <div className='fixed-head-sheet'>
           <div className='d-flex align-items-center justify-content-between'>
             Filter berdasarkan lokasi
-            <span id='resetLocation' className='button-dec' onClick={handleReset}>Reset</span>
+            <span id='resetLocation' onClick={handleReset} style={{ color: "#D00B0B", fontSize: "12px", border: "solid 1px #D00B0B", padding: "4px 16px", borderRadius: "6px" }}>Reset</span>
           </div>
-          <div className='form-search w-100 mt-2'>
+          <div className='form-search w-100 mt-3'>
             <div className="input-group">
               <span className="input-group-text" style={{ color: '#666666' }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">

@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-  padding-top: 74px;
+  padding-top: 113px;
   margin-bottom: 24px;
   height: auto;
   min-height: 100vh;
@@ -82,6 +82,8 @@ body {
   border-bottom: 0;
   background-color: #FFFFFF;
   border: solid 1px #D8D8D8;
+  padding: 10px;
+  column-gap: 10px;
 }
 .navigator .btn-search:hover, .navigator .btn-search:active, .navigator .btn-search:focus-visible {
   border-color: #F1F1F1 !important;

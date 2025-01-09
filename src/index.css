@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-  padding-top: 113px;
+  padding-top: 121px;
   margin-bottom: 24px;
   height: auto;
   min-height: 100vh;
@@ -81,7 +81,7 @@ body {
   border-left: 0;
   border-bottom: 0;
   background-color: #FFFFFF;
-  border: solid 1px #D8D8D8;
+  /* border: solid 1px #D8D8D8; */
   padding: 10px;
   column-gap: 10px;
 }

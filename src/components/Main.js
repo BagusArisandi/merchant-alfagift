@@ -66,7 +66,11 @@ const Main = () => {
 
   const [showModal, setShowModal] = useState(undefined);
   const handleClose = () => setShowModal(undefined);
-  const handleShow = (merchantId) => setShowModal(merchantId);
+  const handleShow = (merchantId) => {
+    setShowModal(merchantId);
+  };
+  
+  
 
   const [cari, setCari] = useState(false);
   const cariClose = () => setCari(false);
@@ -173,50 +177,47 @@ const Main = () => {
         <Row>
           <Col xs={12}>
             <div className="slider-container mb-3">
-              {countTotalSlide < 2 ?
+              {countTotalSlide < 2 ? (
                 <div>
                   {Carousel.map((list) => (
                     <div key={list.id}>
-                      { list.type === 'page' ? 
-                        <a href={list.direct_url} target='_blank' rel="noreferrer" className='text-decoration-none'>
-                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                        </a> : 
-                        list.type === 'modal' ? 
+                      {list.type === "page" ? (
+                        <a href={list.direct_url} target="_blank" rel="noreferrer" className="text-decoration-none">
+                          <img src={list.image_url} alt="" style={{ width: "100%", borderRadius: "12px" }} />
+                        </a>
+                      ) : list.type === "modal" ? (
+                        <div onClick={() => handleShow(Number(list.direct_url))}>
+                          <img src={list.image_url} alt="" style={{ width: "100%", borderRadius: "12px" }} />
+                        </div>
+                      ) : list.type === "static" ? (
                         <div>
-                          <div onClick={()=>handleShow(478)}>
-                            <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                          </div>
-                        </div> :
-                        list.type === 'static' ?
-                        <div>
-                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                        </div> : null
-                      }
+                          <img src={list.image_url} alt="" style={{ width: "100%", borderRadius: "12px" }} />
+                        </div>
+                      ) : null}
                     </div>
                   ))}
-                </div> : 
+                </div>
+              ) : (
                 <Slider {...sliderSettings}>
                   {Carousel.map((list) => (
                     <div key={list.id}>
-                      { list.type === 'page' ? 
-                        <a href={list.direct_url} target='_blank' rel="noreferrer" className='text-decoration-none'>
-                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                        </a> : 
-                        list.type === 'modal' ? 
+                      {list.type === "page" ? (
+                        <a href={list.direct_url} target="_blank" rel="noreferrer" className="text-decoration-none">
+                          <img src={list.image_url} alt="" style={{ width: "100%", borderRadius: "12px" }} />
+                        </a>
+                      ) : list.type === "modal" ? (
+                        <div onClick={() => handleShow(Number(list.direct_url))}>
+                          <img src={list.image_url} alt="" style={{ width: "100%", borderRadius: "12px" }} />
+                        </div>
+                      ) : list.type === "static" ? (
                         <div>
-                          <div onClick={()=>handleShow(478)}>
-                            <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                          </div>
-                        </div> :
-                        list.type === 'static' ?
-                        <div>
-                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                        </div> : null
-                      }
+                          <img src={list.image_url} alt="" style={{ width: "100%", borderRadius: "12px" }} />
+                        </div>
+                      ) : null}
                     </div>
                   ))}
                 </Slider>
-              }
+              )}
             </div>
           </Col>
         </Row>

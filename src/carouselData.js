@@ -11,12 +11,12 @@ const Carousel = [
   //   image_url: "https://static-content.alfagift.id/promo/assets/image/2024/juni/Slide Banner Serum Renew.png",
   //   direct_url: "",
   // },
-  // {
-  //   id: 3,
-  //   type: "page",
-  //   image_url: "https://static-content.alfagift.id/promo/assets/image/2024/juni/Slide Banner Vita Smoothies.png",
-  //   direct_url: "https://bakmigm.com",
-  // },
+  {
+    id: 3,
+    type: "modal",
+    image_url: "https://static-content.alfagift.id/promo/assets/image/2024/juni/Slide Banner Vita Smoothies.png",
+    direct_url: "74",
+  },
   // {
   //   id: 4,
   //   type: "static",
@@ -29,6 +29,18 @@ const Carousel = [
     image_url: "https://static-content.alfagift.id/promo/assets/image/2024/juni/Slide Banner Serum Renew.png",
     direct_url: "478",
   },
+  {
+    id: 6,
+    type: "modal",
+    image_url: "https://static-content.alfagift.id/promo/assets/image/2024/juni/Slide Banner Vita Smoothies.png",
+    direct_url: "605",
+  },
+  // {
+  //   id: 7,
+  //   type: "modal",
+  //   image_url: "https://static-content.alfagift.id/promo/assets/image/2024/juni/Slide Banner Vita Smoothies.png",
+  //   direct_url: "599",
+  // },
 ]
 
 export default Carousel;

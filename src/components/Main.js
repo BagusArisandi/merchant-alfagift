@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Col, Container, Row, Modal, Button } from 'react-bootstrap';
 import Merchants from '../merchantData';
 import Citys from '../cityData';
@@ -11,13 +11,22 @@ const Main = () => {
   const [countTotalMerchant, setCountTotalMerchant] = useState('');
   const loadDataOnlyOnce = () => {
     const totalData = Merchants.filter(data =>
-      data.category === 'penginapan'
+      data.category === 'restoran'
     );
     setCountTotalMerchant(totalData.length);
   }
+  const [countTotalSlide, setCountTotalSlide] = useState('');
+  const loadDataSlide = () => {
+    const totalSlide = Carousel;
+    setCountTotalSlide(totalSlide.length);
+  };
   useEffect(() => {
     loadDataOnlyOnce();
+    loadDataSlide();
   }, [])
+
+  const URL_NAV = 'https://alfagift.id/external-webview?title=Merchant&url=https://alfagift.id/resources/merchant-stg';
+  // const URL_NAV = 'https://alfagift.id/external-webview?title=Merchant&url=https://alfagift.id/resources/merchant';
 
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);
@@ -59,10 +68,6 @@ const Main = () => {
   const handleClose = () => setShowModal(undefined);
   const handleShow = (merchantId) => setShowModal(merchantId);
 
-  const [showBanner, setShowBanner] = useState(false);
-  const modalBannerShow = () => setShowBanner(true);
-  const modalBannerClose = () => setShowBanner(false);
-
   const [cari, setCari] = useState(false);
   const cariClose = () => setCari(false);
   const cariShow = () => setCari(true);
@@ -78,7 +83,7 @@ const Main = () => {
   const handleFilteredByLocation = (location) => {
     const filtered = Merchants.filter(list =>
       list.filteredCity.toLowerCase().includes(location.toLowerCase()) &&
-      list.category === 'penginapan'
+      list.category === 'restoran'
     );
     const getLocation = location;
     setSelectedLocation(getLocation);
@@ -150,16 +155,16 @@ const Main = () => {
           <div className='category-tab'>
             <ul className='nav nav-tabs'>
               <li className='nav-item'>
-                <div className='nav-link active'>Penginapan & Rekreasi</div>
+                <div className='nav-link active'>Restoran</div>
               </li>
               <li className='nav-item'>
-                <a href='https://alfagift.id/external-webview?title=Merchant&url=https://alfagift.id/resources/merchant/restoran/' className='nav-link'>Restoran</a>
+                <a href={ URL_NAV + '/kesehatan-kecantikan/' } className='nav-link'>Kesehatan & Kecantikan</a>
               </li>
               <li className='nav-item'>
-                <a href='https://alfagift.id/external-webview?title=Merchant&url=https://alfagift.id/resources/merchant/kesehatan-kecantikan/' className='nav-link'>Kesehatan & Kecantikan</a>
+                <a href={ URL_NAV + '/penginapan-rekreasi/' } className='nav-link'>Penginapan & Rekreasi</a>
               </li>
               <li className='nav-item'>
-                <a href='https://alfagift.id/external-webview?title=Merchant&url=https://alfagift.id/resources/merchant/fashion-lifestyle/' className='nav-link'>Fashion & Lifestyle</a>
+                <a href={ URL_NAV + '/fashion-lifestyle/' } className='nav-link'>Fashion & Lifestyle</a>
               </li>
               <li><div style={{ width: "12px" }}></div></li>
             </ul>
@@ -168,85 +173,50 @@ const Main = () => {
         <Row>
           <Col xs={12}>
             <div className="slider-container mb-3">
-              <Slider {...sliderSettings}>
-                {Carousel.map((list) => (
-                  <div key={list.id}>
-                    { list.type === 'page' ? 
-                      <a href={list.direct_url} target='_blank' rel="noreferrer" className='text-decoration-none'>
-                        <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                      </a> : 
-                      list.type === 'modal' ? 
-                      <div>
-                        <div onClick={modalBannerShow}>
+              {countTotalSlide < 2 ?
+                <div>
+                  {Carousel.map((list) => (
+                    <div key={list.id}>
+                      { list.type === 'page' ? 
+                        <a href={list.direct_url} target='_blank' rel="noreferrer" className='text-decoration-none'>
                           <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
-                        </div>
-                        <Modal
-                          size="lg"
-                          aria-labelledby="contained-modal-title-vcenter"
-                          centered
-                          show={showBanner}
-                          onHide={modalBannerClose}
-                          className='bottomsheet-halffull'
-                        >
-                          <Modal.Body className="px-0">
-                            <div className='row justify-content-center mx-0'>
-                              <div className='col-8 p-3'>
-                                <img src={'https://static-content.alfagift.id/static/merchant/' + list.modal_content.image} alt='' className='img-fluid' />
-                              </div>
-                            </div>
-                            <div className='divider'></div>
-                            <div className='p-3'>
-                              <div className='text-sm fw7 text-gray'>{ list.modal_content.category }</div>
-                              <div className='text-xlg fw7'>{ list.modal_content.name }</div>
-                            </div>
-                            <div className='px-3'>
-                              <div className='fw5 text-lg'>Syarat & Ketentuan</div>
-                              <ul className='list-content my-3'>
-                                {list.modal_content.tnc.map(terms => (
-                                  <li key={terms}>
-                                    <div dangerouslySetInnerHTML={{__html: terms}}></div>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                            <div className='border-dashed my-3'></div>
-                            <div className='px-3'>
-                              {list.modal_content.loclist.length > 0 || list.modal_content.loc !== '' ? <div className='fw5 text-lg'>Promo berlaku di:</div> : null}
-                              {list.modal_content.loc !== '' ? <div className='my-3' dangerouslySetInnerHTML={{__html: list.modal_content.loc}}></div> : null}
-                              {list.modal_content.loclist.length > 0 ? 
-                                <ul className='list-content my-3'>
-                                  {list.modal_content.loclist.map(locations => (
-                                    <li key={locations}>
-                                      <div dangerouslySetInnerHTML={{__html: locations}}></div>
-                                    </li>
-                                  ))}
-                                </ul>
-                              : null}
-                            </div>
-                            <div className='border-dashed my-3'></div>
-                            <div className='px-3'>
-                              {list.modal_content.reserve.length > 0 ? 
-                                <div>
-                                  <div className='fw5 text-lg'>Informasi:</div>
-                                  <div className='my-3'>
-                                    {list.modal_content.reserve.map(info => (
-                                      <div key={info} className='mb-2'>
-                                        <div dangerouslySetInnerHTML={{__html: info}}></div>
-                                      </div>
-                                    ))}
-                                  </div>
-                                </div>
-                              : null}
-                            </div>
-                          </Modal.Body>
-                          <div className='fixed-action p-3'>
-                            <Button variant='outline-primary w-100' onClick={modalBannerClose}>Tutup</Button>
+                        </a> : 
+                        list.type === 'modal' ? 
+                        <div>
+                          <div onClick={()=>handleShow(478)}>
+                            <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
                           </div>
-                        </Modal>
-                      </div> : null }
-                  </div>
-                ))}
-              </Slider>
+                        </div> :
+                        list.type === 'static' ?
+                        <div>
+                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
+                        </div> : null
+                      }
+                    </div>
+                  ))}
+                </div> : 
+                <Slider {...sliderSettings}>
+                  {Carousel.map((list) => (
+                    <div key={list.id}>
+                      { list.type === 'page' ? 
+                        <a href={list.direct_url} target='_blank' rel="noreferrer" className='text-decoration-none'>
+                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
+                        </a> : 
+                        list.type === 'modal' ? 
+                        <div>
+                          <div onClick={()=>handleShow(478)}>
+                            <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
+                          </div>
+                        </div> :
+                        list.type === 'static' ?
+                        <div>
+                          <img src={list.image_url} alt='' style={{ width: "100%", borderRadius: "12px" }} />
+                        </div> : null
+                      }
+                    </div>
+                  ))}
+                </Slider>
+              }
             </div>
           </Col>
         </Row>
@@ -255,7 +225,7 @@ const Main = () => {
             <Row className='px-2'>
               <Col xs={12} className='px-2'>
                 <div className='mb-2'>
-                  <h5 className='mb-2 fw7'>Penginapan & Rekreasi</h5>
+                  <h5 className='mb-2 fw7'>Restoran</h5>
                   <div id='btnFilter' onClick={() => { filterShow(); onClear(); }} className='d-flex align-items-center' style={{ border: "solid 1px #D8D8D8", padding: "6px 8px", fontSize: "12px", borderRadius: "8px", width: "fit-content", backgroundColor: "#FFFFFF" }}>
                     <span className='me-1'>Semua Lokasi</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -283,7 +253,7 @@ const Main = () => {
                   <div id='counterData' className='fw7 mt-3' style={{ color: "#666666" }}>{countTotalMerchant} Merchant</div>
                 </div>
               </Col>
-              {filteredData.filter((item) => item.category === "penginapan").map((list) => (
+              {filteredData.filter((item) => item.category === "restoran").map((list) => (
                 <Col key={list.merchantId} xs={6} sm={6} md={3} lg={2} className='px-1 py-2'>
                   <div className='card merc-card border-0' onClick={()=>handleShow(list.merchantId)}>
                     <img src={'https://static-content.alfagift.id/static/merchant/' + list.image} alt='' className='img-fluid' />
@@ -371,7 +341,7 @@ const Main = () => {
                 <img src='https://static-content.alfagift.id/static/alfagift-app/no_search_result.png' alt='' className='img-fluid mb-3' />
               </Col>
               <Col xs={10} className='text-center'>
-                <p className='text-center'>Tidak ditemukan penginapan di "<strong>{selectedLocation}</strong>"</p>
+                <p className='text-center'>Tidak ditemukan merchant restoran di "<strong>{selectedLocation}</strong>"</p>
                 <Button variant='btn btn-primary fw7' onClick={() => { filterShow(); onClear(); }}>Ubah Lokasi</Button>
               </Col>
             </Row>
